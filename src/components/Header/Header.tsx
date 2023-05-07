@@ -1,6 +1,6 @@
 import Navbar from "./Navbar/Navbar";
 import Banner from "./Banner/Banner";
-import "./Header.css"
+import "./Header.css";
 
 const Header = () => {
   return (

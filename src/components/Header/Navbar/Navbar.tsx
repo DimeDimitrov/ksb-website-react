@@ -6,14 +6,14 @@ const Navbar = () => {
       <div className="container">
         <div className="logo-lang fadeinLeft">
           <a href="index.html" className="navbar-brand">
-            <img src="src/images/logo.png" alt="Logo" />
+            <img src="images/logo.png" alt="Logo" />
           </a>
           <li className="flags">
             <div className="flag-container">
               <div className="langSelect">
                 <img
                   className="flag"
-                  src="src/images/macedonianFlag.png"
+                  src="images/macedonianFlag.png"
                   alt="Makedonski"
                   draggable="false"
                 />
@@ -21,7 +21,7 @@ const Navbar = () => {
               <div className="langSelect">
                 <img
                   className="flag"
-                  src="src\images\englishFlag.png"
+                  src="images\englishFlag.png"
                   alt="English"
                   draggable="false"
                 />
@@ -29,7 +29,7 @@ const Navbar = () => {
               <div className="langSelect">
                 <img
                   className="flag"
-                  src="src/images/albanianFlag.png"
+                  src="images/albanianFlag.png"
                   alt="Albanski"
                   draggable="false"
                 />

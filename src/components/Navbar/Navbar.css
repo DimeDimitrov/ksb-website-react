@@ -3,6 +3,7 @@ nav img {
   }
   nav {
     align-items: center;
+    justify-content: center;
     position: fixed top;
     background: transparent;
   }

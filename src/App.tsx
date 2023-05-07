@@ -1,19 +1,25 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Struki from "./components/Struki/Struki";
-import News from "./components/News/News";
-import Footer from "./components/Footer/Footer";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import News from "./pages/News";
+import Struki from "./pages/Struki";
+import About from "./pages/About";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Struki />
-      <News />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/struki" element={<Struki />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

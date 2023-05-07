@@ -1,0 +1,121 @@
+nav img {
+    width: 90px;
+  }
+  nav {
+    align-items: center;
+    position: fixed top;
+    background: transparent;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: rgb(232, 231, 243) !important;
+    font-size: 1.1rem;
+    font-family: monospace !important;
+    font-weight: 550 !important;
+  }
+  nav ul li a:hover {
+    color: rgb(99, 99, 99) !important;
+    transition: 0.5s ease-in;
+  }
+  nav ul li a {
+    font-weight: 500 !important;
+    color: white !important;
+    padding: 10px 20px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+  }
+  nav ul a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.25s linear;
+  }
+  ul a:hover:before,
+  ul a:focus:before {
+    visibility: visible;
+    transform: scaleX(0.75);
+  }
+  ul a:before {
+    background-color: white;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.658);
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    z-index: 11;
+  }
+  .navmenu ul {
+    position: relative !important;
+    display: flex !important;
+    text-align: center !important;
+    z-index: 12 !important;
+    width: fit-content;
+  }
+  .navmenu ul li a {
+    z-index: 11;
+  }
+  li {
+    display: flex;
+    text-align: center;
+  }
+  .navmanu ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .langSelect {
+    cursor: pointer;
+    height: 25px;
+  }
+  .flag {
+    width: 25px;
+  }
+  .flag-container {
+    width: 20vw !important;
+    display: flex !important;
+    border: 1px transparent solid;
+    align-items: center;
+    gap: 2%;
+  }
+  .logo-lang {
+    display: flex !important;
+    flex-direction: column;
+    align-items: start !important;
+  }
+
+
+  /*==================Hamburger=================*/
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 10 !important;
+  }
+  .overlay.active {
+    display: flex;
+  }
+  
+  .hamburger-menu {
+    z-index: 11;
+  }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-dark .navbar-toggler {
+    color: transparent !important;
+    border-color: transparent !important;
+  }
+  

@@ -62,6 +62,7 @@
   .row {
     width: 100% !important;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
     flex-flow: wrap;
     margin-top: 5%;

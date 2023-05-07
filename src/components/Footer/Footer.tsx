@@ -1,18 +1,20 @@
 import "./Footer.css";
 
+import "../../assets/animations.css";
+
 const Footer = () => {
   return (
     <footer>
       <div className="Sponsors">
         <div className="main-div">
           <a className="nickel" href="https://www.euronickel.com/">
-            <img src="/public/Sponsors/feni.png" />
+            <img src="/Sponsors/feni.png" />
           </a>
           <a className="igm" href="https://www.igmtrade.com/">
-            <img src="/public/Sponsors/velkom-trejd.png" />
+            <img src="/Sponsors/velkom-trejd.png" />
           </a>
           <a href="https://www.draexlmaier.com/en/">
-            <img src="/public/Sponsors/draexelmaier.png" />
+            <img src="/Sponsors/draexelmaier.png" />
           </a>
         </div>
       </div>

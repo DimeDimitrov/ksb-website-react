@@ -1,5 +1,8 @@
+import "./News.css";
+import Navbar from "../../components/Navbar/Navbar";
+
 const News = () => {
-  return <div>News</div>;
+  return <Navbar />;
 };
 
 export default News;

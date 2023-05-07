@@ -1,8 +1,8 @@
+import "./Gallery.css";
 import Navbar from "../../components/Navbar/Navbar";
-import "./About.css";
 
-const About = () => {
+const Gallery = () => {
   return <Navbar />;
 };
 
-export default About;
+export default Gallery;

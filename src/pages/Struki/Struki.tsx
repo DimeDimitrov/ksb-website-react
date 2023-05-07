@@ -1,5 +1,8 @@
+import "./Struki.css";
+import Navbar from "../../components/Navbar/Navbar";
+
 const Struki = () => {
-  return <div>Struki</div>;
+  return <Navbar />;
 };
 
 export default Struki;

@@ -1,3 +1,5 @@
+import "./Home.css";
+
 import Footer from "../../components/Footer/Footer";
 import Header from "./Header/Header";
 import News from "./News/News";

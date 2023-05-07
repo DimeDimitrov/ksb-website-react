@@ -2,11 +2,11 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import News from "./pages/News";
-import Struki from "./pages/Struki";
-import About from "./pages/About";
+import Home from "./pages/Home/Home";
+import Contact from "./pages/Contact/Contact";
+import News from "./pages/News/News";
+import Struki from "./pages/Struki/Struki";
+import About from "./pages/About/About";
 
 function App() {
   return (

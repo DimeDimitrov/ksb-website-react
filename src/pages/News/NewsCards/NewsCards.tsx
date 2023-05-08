@@ -1,50 +1,48 @@
 import "./NewsCards.css";
 
+const posts = {
+  post1: {
+    title: "Decata sega imaat prevoz",
+    image: "/News/3.jpg",
+    daysAgo: 20,
+  },
+  post2: {
+    title: "Sirenata alarmirase vo KSB",
+    image: "/News/2.jpg",
+    daysAgo: 20,
+  },
+  post3: {
+    title: "Najdobriot dzudist na 2023",
+    image: "/News/1.jpg",
+    daysAgo: 20,
+  },
+};
+
 const NewsCards = () => {
-  return (
-    <div className="card-deck">
-      <div className="card">
-        <img className="card-img-top" src="..." alt="Card image cap" />
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-        </div>
-        <div className="card-footer">
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-      <div className="card">
-        <img className="card-img-top" src="..." alt="Card image cap" />
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </p>
-        </div>
-        <div className="card-footer">
-          <small className="text-muted">Last updated 3 mins ago</small>
+  const postCards = Object.entries(posts)
+    .reverse() // reverse the order of the post objects
+    .map(([postId, post]) => (
+      <div className="col" key={postId}>
+        <div className="card h-100">
+          <img
+            src={post.image}
+            className="card-img-top"
+            alt="..."
+            style={{ objectFit: "cover", height: "200px" }}
+          />
+          <div className="card-body">
+            <h5 className="card-title">{post.title}</h5>
+          </div>
+          <div className="card-footer">
+            <small className="text-body-secondary">
+              Last updated {post.daysAgo} days ago
+            </small>
+          </div>
         </div>
       </div>
-      <div className="card">
-        <img className="card-img-top" src="..." alt="Card image cap" />
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
-        </div>
-        <div className="card-footer">
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-    </div>
-  );
+    ));
+
+  return <div className="row row-cols-1 row-cols-md-3 g-4">{postCards}</div>;
 };
 
 export default NewsCards;

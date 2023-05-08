@@ -35,7 +35,7 @@ const NewsCards = () => {
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
-              Last updated {post.daysAgo} days ago
+              Пред {post.daysAgo} дена
             </small>
           </div>
         </div>

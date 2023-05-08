@@ -1,0 +1,37 @@
+.grizev{
+    text-align: center;
+    font-size: 20px;
+    padding: 1% 0;
+    padding-bottom: 23%;
+    color:#777;
+  }
+  .profe-main {
+    display: flex;
+    gap: 5%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  .profe-main > .profe {
+    scroll-snap-align: start;
+  }
+  .profe-main::-webkit-scrollbar {
+    color: #777;
+    height: 0.5vh;
+  }
+  .profe-main::-webkit-scrollbar-thumb {
+    background-color: #9999;
+  }
+  .profe-main::-webkit-scrollbar-track {
+    background-color: #555;
+  }
+  .profe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-snap-type: start;
+  }
+  .profe img {
+    width: 15vw;
+    transition: left 5s;
+  }

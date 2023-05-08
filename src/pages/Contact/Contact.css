@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body > .skiptranslate {
+    display: none;
+  }
+  .skiptranslate {
+    display: none;
+  }
+  body {
+    background-color: rgb(10, 17, 34);
+  }

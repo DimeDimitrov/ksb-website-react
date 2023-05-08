@@ -1,0 +1,17 @@
+
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .location iframe {
+    width: 80%;
+  }
+  
+  .location h1 {
+    color: white;
+    padding-bottom: 25px;
+  }

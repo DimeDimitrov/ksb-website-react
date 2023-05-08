@@ -1,0 +1,77 @@
+.row {
+    width: 95%;
+    margin: auto !important;
+    justify-content: center !important;
+    gap: 30px !important;
+    display: flex !important;
+    padding: 0px 2%;
+    padding-bottom: 10%;
+  }
+  .contact p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+  .contact-item {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12%;
+  }
+  
+  .contact-col {
+    margin-bottom: 30px;
+    width: 70%;
+    align-items: center;
+  }
+  .contact-col1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+    text-align: start;
+  }
+  
+  .contact-col div .uil {
+    color: #f44336;
+    margin: 5%;
+    margin-right: 15%;
+  }
+  
+  .contact-col div p {
+    padding: 0;
+    color: white;
+  }
+  
+  .contact-col div h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #bdbdbd;
+    font-weight: 400;
+  }
+  
+  .red-btn {
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+    transition: 0.75s;
+  }
+  
+  .red-btn:hover {
+    color: #fff;
+  }
+  ::placeholder {
+    color: rgb(194, 194, 194);
+  }
+  .contact-col input,
+  .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.336) !important;
+    margin-bottom: 17px;
+    outline: none;
+    color: white;
+    border: 1px solid #ccc;
+  }

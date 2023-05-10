@@ -32,11 +32,13 @@ const NewsCards = () => {
 
   return (
     <div className="row row-cols-1 row-cols-md-3 g-4">
-      {postCards} <Link to={"/news/new"}>New Post</Link>
-      <Link to={`/news/${postId}`} state={postId}>
-        Post {postId}
-      </Link>
-      <input type="number" onChange={(e) => setPostId(e.target.value)} />
+      {postCards}
+      <div className="card">
+        <Link to={`/news/${postId}`} state={postId}>
+          Goto Post {postId}
+        </Link>
+        <input type="number" onChange={(e) => setPostId(e.target.value)} />
+      </div>
     </div>
   );
 };

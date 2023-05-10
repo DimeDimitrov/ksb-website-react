@@ -1,8 +1,12 @@
 .container{
   max-width: 100%;
+  display: block !important;
 }
-nav img {
+  nav img {
     width: 90px;
+  }
+  p{
+    text-align: center !important;
   }
   nav {
     align-items: center;

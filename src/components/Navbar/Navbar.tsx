@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="container">
+    <div className="container no-gutters">
       <nav className="navbar navbar-expand-lg py-4 navbar-dark">
         <div className="container">
           <div className="logo-lang fadeinLeft">

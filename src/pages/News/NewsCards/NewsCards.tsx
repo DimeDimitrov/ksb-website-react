@@ -9,8 +9,8 @@ const NewsCards = () => {
   const postCards = Object.entries(posts)
     .reverse() // reverse the order of the post objects
     .map(([postId, post]) => (
-      <div className="col" key={postId}>
-        <div className="card h-100">
+      <div className="col color-gray" key={postId}>
+        <div className="card">
           <img
             src={post.image}
             className="card-img-top"

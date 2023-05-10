@@ -1,0 +1,12 @@
+.col {
+    background: gray;
+}
+.card-body{
+    background-color: gray;
+}
+.card-footer{
+    background-color: gray;
+}
+.card{
+    border: none;
+}

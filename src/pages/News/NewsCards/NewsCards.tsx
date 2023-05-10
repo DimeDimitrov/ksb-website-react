@@ -9,7 +9,7 @@ const NewsCards = () => {
   const postCards = Object.entries(posts)
     .reverse() // reverse the order of the post objects
     .map(([postId, post]) => (
-      <div className="col color-gray" key={postId}>
+      <div className="col" key={postId}>
         <div className="card">
           <img
             src={post.image}
@@ -18,13 +18,14 @@ const NewsCards = () => {
             style={{ objectFit: "cover", height: "200px" }}
           />
           <div className="card-body">
-            <h5 className="card-title">{post.title}</h5>
+            <Link className="card-title" to={`/news/${postId}`}>
+              {post.title}
+            </Link>
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
               Пред {post.daysAgo} дена
             </small>
-            <Link to={`/news/${postId}`}>Link</Link>
           </div>
         </div>
       </div>

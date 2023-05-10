@@ -1,9 +1,11 @@
+.container{
+  max-width: 100%;
+}
 nav img {
     width: 90px;
   }
   nav {
     align-items: center;
-    justify-content: center;
     position: fixed top;
     background: transparent;
   }

@@ -1,4 +1,4 @@
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import "./NotFound.css";
 
@@ -8,7 +8,7 @@ const NotFound = () => {
   useEffect(() => {
     setTimeout(() => {
       navigate("/");
-    }, 3000);
+    }, 1000);
   }, []);
 
   return (

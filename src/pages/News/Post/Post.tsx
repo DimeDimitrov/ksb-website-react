@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import postsContent from "../postsContent.ts";
 import Footer from "../../../components/Footer/Footer.tsx";
 import Navbar from "../../../components/Navbar/Navbar.tsx";
+import NotFound from "../../NotFound/NotFound.tsx";
 
 function Post() {
   const { id }: any = useParams();
@@ -12,7 +13,7 @@ function Post() {
   let values = Object.values(posts);
   console.log(values);
   if (!post) {
-    return <div>Post not found.</div>;
+    return <NotFound />;
   }
   return (
     <div>

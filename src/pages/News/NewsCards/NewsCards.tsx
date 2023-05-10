@@ -1,24 +1,11 @@
 import "./NewsCards.css";
-
-const posts = {
-  post1: {
-    title: "Decata sega imaat prevoz",
-    image: "/News/3.jpg",
-    daysAgo: 20,
-  },
-  post2: {
-    title: "Sirenata alarmirase vo KSB",
-    image: "/News/2.jpg",
-    daysAgo: 20,
-  },
-  post3: {
-    title: "Najdobriot dzudist na 2023",
-    image: "/News/1.jpg",
-    daysAgo: 20,
-  },
-};
+import posts from "../posts";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const NewsCards = () => {
+  const [postId, setPostId] = useState("-1");
+
   const postCards = Object.entries(posts)
     .reverse() // reverse the order of the post objects
     .map(([postId, post]) => (
@@ -37,12 +24,21 @@ const NewsCards = () => {
             <small className="text-body-secondary">
               Пред {post.daysAgo} дена
             </small>
+            <Link to={`/news/${postId}`}>Link</Link>
           </div>
         </div>
       </div>
     ));
 
-  return <div className="row row-cols-1 row-cols-md-3 g-4">{postCards}</div>;
+  return (
+    <div className="row row-cols-1 row-cols-md-3 g-4">
+      {postCards} <Link to={"/news/new"}>New Post</Link>
+      <Link to={`/news/${postId}`} state={postId}>
+        Post {postId}
+      </Link>
+      <input type="number" onChange={(e) => setPostId(e.target.value)} />
+    </div>
+  );
 };
 
 export default NewsCards;

@@ -4,6 +4,7 @@ import NewsCards from "./NewsCards/NewsCards";
 import Footer from "../../components/Footer/Footer";
 
 const News = () => {
+
   return (
     <>
       <Navbar />

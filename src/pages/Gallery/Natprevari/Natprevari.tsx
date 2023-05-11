@@ -20,7 +20,7 @@ const Natprevari = () => {
   const viewImage = (img: string, i: number) => {
     setData({ img, i });
   };
-  const imgAction = (action) => {
+  const imgAction = (action: string) => {
     let i = data.i;
     if (action === "next-img") {
       setData({ img: images[i + 1], i: i + 1 });

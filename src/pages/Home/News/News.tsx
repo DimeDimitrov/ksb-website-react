@@ -1,5 +1,5 @@
 import "./News.css";
-import posts from "../../News/posts";
+//import posts from "../../News/posts";
 
 const News = () => {
   return (

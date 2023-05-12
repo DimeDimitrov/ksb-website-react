@@ -1,6 +1,8 @@
 import "./News.css";
 import posts from "../../News/posts";
 
+const NUMBER_OF_POSTS = 6;
+
 interface NewsProps {
   title: string;
   image: string;
@@ -28,15 +30,11 @@ const NewsCard = ({ title, image, daysAgo, postId }: NewsProps) => {
   );
 };
 
-interface Props {
-  numPosts: number;
-}
-
-const News = ({ numPosts }: Props) => {
+const News = () => {
   const postKeys = Object.keys(posts)
     .map(Number)
     .sort((a, b) => b - a);
-  const latestPosts = postKeys.slice(0, numPosts);
+  const latestPosts = postKeys.slice(0, NUMBER_OF_POSTS);
 
   return (
     <div className="container">

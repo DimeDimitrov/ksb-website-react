@@ -8,7 +8,7 @@ const Struki = () => {
   return (
     <>
       <Navbar />
-      <Banner img="/Struki/banner.jpg" />
+      <Banner img="/Struki/banner.jpg" text="Струки" />
       <StrukiMain />
       <Footer />
     </>

@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <Banner img="/About/banner.jpg" />
+      <Banner img="/About/banner.jpg" text="За нас" />
       <SortButtons />
       <History />
       <Mission />

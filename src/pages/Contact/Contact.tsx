@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <Banner img="/Contact/banner.jpg" />
+      <Banner img="/Contact/banner.jpg" text="Контакт" />
       <Location />
       <Form />
       <Footer />

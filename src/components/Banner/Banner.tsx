@@ -2,9 +2,10 @@ import "./Banner.css";
 
 interface Props {
   img: string;
+  text: string;
 }
 
-const Banner = ({ img }: Props) => {
+const Banner = ({ img, text }: Props) => {
   return (
     <section
       className="sub-header"
@@ -14,7 +15,7 @@ const Banner = ({ img }: Props) => {
       }}
     >
       <div className="homepage">
-        <h1 className="fadeinTop">Галерија</h1>
+        <h1 className="fadeinTop">{text}</h1>
       </div>
       <div className="overlay"></div>
     </section>

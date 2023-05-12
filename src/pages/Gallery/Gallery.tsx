@@ -8,7 +8,7 @@ const Gallery = () => {
   return (
     <>
       <Navbar />
-      <Banner img="/Gallery/banner.jpg" />
+      <Banner img="/Gallery/banner.jpg" text="Галерија" />
       <Natprevari />
       <Footer />
     </>

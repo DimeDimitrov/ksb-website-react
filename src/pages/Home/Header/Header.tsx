@@ -8,7 +8,6 @@ const Header = () => {
   return (
     <section className="container">
       <Navbar />
-      <HomeBanner />
       <HeadContent />
     </section>
   );

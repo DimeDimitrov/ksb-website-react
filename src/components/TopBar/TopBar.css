@@ -1,0 +1,12 @@
+.wrap-Background {
+  width: 100% !important;
+  background-color: white !important;
+}
+.top-bar {
+  background: white !important;
+  border-top: 8px solid #1338be;
+  border-bottom: none;
+  border-right: 8px solid white;
+  width: 50% !important;
+  height: 8px !important;
+}

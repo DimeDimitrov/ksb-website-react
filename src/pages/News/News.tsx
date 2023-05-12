@@ -8,7 +8,7 @@ const News = () => {
   return (
     <>
       <Navbar />
-      <Banner />
+      <Banner img="/News/banner.jpg" />
       <NewsCards />
       <Footer />
     </>

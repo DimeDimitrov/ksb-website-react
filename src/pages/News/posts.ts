@@ -76,7 +76,7 @@ const posts: Posts = {
   },
   14: {
     title: 'СОУ "Киро Спанџов Брко" потпиша меморандум за соработка и изведување на практична настава на учениците со компанијата "Велком Трејд" од Кавадарци.',
-    image: "/News/4.jpg",
+    image: "/News/1.jpg",
     daysAgo: 70,
   },
   15: {
@@ -86,27 +86,27 @@ const posts: Posts = {
   },
   16: {
     title: '5TI POST',
-    image: "/News/4.jpg",
+    image: "/News/2.jpg",
     daysAgo: 50,
   },
   17: {
     title: '4TI POST',
-    image: "/News/4.jpg",
+    image: "/News/3.jpg",
     daysAgo: 20,
   },
   18: {
     title: 'OVA E MALKU POSTAR POST AMA PAK E NOV MUAHAHAH',
-    image: "/News/4.jpg",
+    image: "/News/1.jpg",
     daysAgo: 10,
   },
   19: {
     title: 'OVA E VTOR NAJNOV POST HAHAHAHAHAHAHAHAHAAH',
-    image: "/News/4.jpg",
+    image: "/News/2.jpg",
     daysAgo: 5,
   },
   20: {
     title: 'OVA E NAJNOV POST NA KSB KIRO SAANDZOV BRKO',
-    image: "/News/4.jpg",
+    image: "/News/3.jpg",
     daysAgo: 2,
   },
 };

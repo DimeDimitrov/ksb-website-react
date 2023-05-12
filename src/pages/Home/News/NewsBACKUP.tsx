@@ -22,7 +22,7 @@ const NewsCard = ({ title, image, daysAgo, postId }: NewsProps) => {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{daysAgo} days ago</p>
-        </div>
+        </div> 
       </div>
     </div>
   );

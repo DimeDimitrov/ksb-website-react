@@ -10,7 +10,7 @@ const News = () => {
       <Navbar />
       <NewsCards />
       <Footer />
-    </>
+    </> 
   );
 };
 

@@ -1,165 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&display=swap");
 footer {
-    background-color: rgba(0, 0, 0, 1) !important;
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+footer h2 {
+  font-family: "Ubuntu", sans-serif !important;
+}
+footer h2:hover {
+  cursor: default;
+}
+footer .Sponsors {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+footer .Sponsors .main-div {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+  padding: 50px 0 20px 0;
+  width: 85%;
+  border-bottom: 1px solid rgb(150, 145, 145);
+}
+
+footer .Sponsors .main-div img {
+  width: 60%;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+footer .Sponsors .main-div a {
+  font-family: "Noto Sans", sans-serif !important;
+  text-align: center;
+  width: 33%;
+}
+.nickel img {
+  width: 100%;
+}
+footer .Sponsors .main-div img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+footer .footer {
+  padding: 20px 0;
+  display: flex;
+  margin: auto;
+  align-items: start;
+  justify-content: center;
+  width: 85%;
+}
+footer .footer th {
+  padding: 0 30px;
+}
+footer .footer td {
+  text-align: left;
+}
+footer .footer .con {
+  width: 33%;
+  padding: 30px;
+  color: rgb(199, 199, 199);
+}
+footer .footer .content-info {
+  padding: 10px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.233);
+}
+footer .footer .about-head {
+  padding-bottom: 10px;
+}
+footer .footer .about-head .about-p {
+  line-height: 2rem;
+}
+footer .footer .about-head .about-p li {
+  font-family: "Noto Sans", sans-serif;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.233);
+  padding-bottom: 10px;
+}
+footer .footer .about-head .about-p li:hover {
+  cursor: default;
+}
+footer .footer .about-head .about-p ul {
+  list-style: none;
+}
+footer .footer .contact-content {
+  padding: 10px 0;
+  text-align: left;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.233);
+}
+footer .footer span {
+  color: rgb(199, 199, 199);
+  font-family: "Ubuntu", sans-serif !important;
+}
+footer .footer span:hover {
+  cursor: default;
+}
+footer .footer span a {
+  font-weight: 500 !important;
+  color: rgb(199, 199, 199) !important;
+  font-family: "Ubuntu", sans-serif;
+  width: fit-content;
+  padding-bottom: 5px;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
+footer .footer span a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #929292;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: 0.25s linear;
+}
+footer .footer ul {
+  margin: 0;
+  padding: 10px 0;
+}
+footer .footer .credits {
+  font-size: 20px;
+}
+footer .footer ul li {
+  font-family: "Ubuntu", sans-serif !important;
+  padding: 0 5px;
+  font-size: 1.1rem;
+}
+footer .footer span a:hover:before,
+footer .footer span a:focus:before {
+  visibility: visible;
+  transform: scaleX(0.9);
+}
+footer .footer span a:before {
+  background-color: white;
+  box-shadow: 0 0 10px 2px rgb(53, 53, 53);
+}
+
+footer .footer p {
+  color: rgb(160, 160, 160);
+}
+.footer-copyright {
+  background-color: rgb(2, 3, 5) !important;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-copyright span {
+  font-family: "Ubuntu", sans-serif !important;
+  font-size: 1rem !important;
+  padding: 5px 0;
+}
+.footer-copyright p {
+  margin: 0;
+}
+.footer-copyright ul {
+  list-style: none;
+}
+
+@media (max-width: 700px) {
+  .homepage h1 {
+    font-size: 26px;
   }
-  footer .Sponsors {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
+
   footer .Sponsors .main-div {
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: 15%;
-    padding: 50px 0 20px 0;
+    padding: 5% 0 5% 0;
     width: 85%;
     border-bottom: 1px solid rgb(150, 145, 145);
   }
-  
+
   footer .Sponsors .main-div img {
-    width: 60%;
+    width: 70%;
     opacity: 0.5;
     transition: 0.5s;
   }
-  footer .Sponsors .main-div a {
-    text-align: center;
-    width: 33%;
-  }
-  .nickel img {
-    width: 100%;
-  }
-  footer .Sponsors .main-div img:hover {
-    opacity: 1;
-    cursor: pointer;
-  }
-  footer .footer {
-    padding: 20px 0;
-    display: flex;
-    margin: auto;
-    align-items: start;
-    justify-content: center;
-    width: 85%;
-  }
-  footer .footer th {
-    padding: 0 30px;
-  }
-  footer .footer td {
-    text-align: center;
-  }
-  footer .footer .con {
-    width: 33%;
-    padding: 30px;
-    color: rgb(199, 199, 199);
-  }
-  footer .footer .content-info {
-    padding: 10px 0;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.233);
-  }
-  footer .footer .about-head {
-    padding-bottom: 10px;
-  }
-  footer .footer .about-head .about-p {
-    line-height: 2rem;
-  }
-  footer .footer .about-head .about-p li {
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.233);
-    padding-bottom: 10px;
-  }
-  footer .footer .about-head .about-p ul {
-    list-style: none;
-  }
-  footer .footer .contact-content {
-    padding: 10px 0;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.233);
-  }
-  footer .footer span {
-    color: rgb(199, 199, 199);
-  }
-  footer .footer span a {
-    font-weight: 500 !important;
-    color: rgb(199, 199, 199) !important;
-    width: fit-content;
-    padding-bottom: 5px;
-    display: block;
-    position: relative;
-    text-decoration: none;
-    z-index: 1;
-  }
-  footer .footer span a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    background: #929292;
-    visibility: hidden;
-    border-radius: 5px;
-    transform: scaleX(0);
-    transition: 0.25s linear;
-  }
-  footer .footer ul {
-    margin: 0;
-    padding: 10px 0;
-  }
-  footer .footer .credits {
-    font-size: 20px;
-  }
-  footer .footer ul li {
-    padding: 0 5px;
-    font-size: 1rem;
-  }
-  footer .footer span a:hover:before,
-  footer .footer span a:focus:before {
-    visibility: visible;
-    transform: scaleX(0.9);
-  }
-  footer .footer span a:before {
-    background-color: white;
-    box-shadow: 0 0 10px 2px rgb(53, 53, 53);
-  }
-  
-  footer .footer p {
-    color: rgb(160, 160, 160);
-  }
-  .footer-copyright {
-    background-color: rgb(10, 17, 34) !important;
-    color: white;
-    font-weight: 500;
-    padding: 5px;
-    text-align: center;
-  }
-  .footer-copyright {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .footer-copyright p {
-    margin: 0;
-  }
-  .footer-copyright ul {
-    list-style: none;
-  }
-  
-
-  @media (max-width: 700px) {
-    .homepage h1 {
-      font-size: 26px;
-    }
-  
-    footer .Sponsors .main-div {
-      justify-content: center;
-      display: flex;
-      align-items: center;
-      padding: 5% 0 5% 0;
-      width: 85%;
-      border-bottom: 1px solid rgb(150, 145, 145);
-    }
-  
-    footer .Sponsors .main-div img {
-      width: 70%;
-      opacity: 0.5;
-      transition: 0.5s;
-    }
-  }
+}

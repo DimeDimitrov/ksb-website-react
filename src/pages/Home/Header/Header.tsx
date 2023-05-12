@@ -1,12 +1,15 @@
 import Navbar from "../../../components/Navbar/Navbar";
-import Banner from "./Banner/Banner";
+import HomeBanner from "./HomeBanner/HomeBanner";
+
 import "./Header.css";
+import HeadContent from "./HeadContent/HeadContent";
 
 const Header = () => {
   return (
     <section className="container">
       <Navbar />
-      <Banner />
+      <HomeBanner />
+      <HeadContent />
     </section>
   );
 };

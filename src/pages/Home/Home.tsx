@@ -4,12 +4,12 @@ import Footer from "../../components/Footer/Footer";
 import Header from "./Header/Header";
 import News from "./News/News";
 import Struki from "./Struki/Struki";
-import TopBar from "../../components/TopBar/TopBar";
+import HomeBanner from "./Header/HomeBanner/HomeBanner"
 
 const Home = () => {
   return (
     <>
-      <TopBar />
+      <HomeBanner />
       <Header />
       <Struki />
       <News />

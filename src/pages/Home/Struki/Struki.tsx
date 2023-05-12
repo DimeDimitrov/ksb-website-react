@@ -1,3 +1,4 @@
+
 import "./Struki.css";
 
 const Struki = () => {
@@ -7,7 +8,9 @@ const Struki = () => {
       <div id="secti"></div>
       <div className="row">
         <div className="row-el reveal animated fadeinLeft">
-          <div className="struki-col el0">
+          <div className="struki-col el0" onClick={() => {
+            window.location.href = "/struki/masinski"
+          }}>
             <div className="row-img">
               <img src="/Struki/masinska.jpg" />
             </div>
@@ -26,7 +29,9 @@ const Struki = () => {
           </div>
         </div>
         <div className="row-el animated fadeinTop">
-          <div className="struki-col el2">
+          <div className="struki-col el2" onClick={() => {
+            window.location.href = "/struki/elektro"
+          }}>
             <div className="row-img">
               <img src="/Struki/elektro.jpg" />
             </div>
@@ -47,7 +52,9 @@ const Struki = () => {
           </div>
         </div>
         <div className="row-el reveal animated fadeinRight">
-          <div className="struki-col el1">
+          <div className="struki-col el1" onClick={() => {
+            window.location.href = "/struki/metalurski"
+          }}>
             <div className="row-img">
               <img src="/Struki/metalurska.jpg" />
             </div>

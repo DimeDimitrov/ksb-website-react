@@ -1,21 +1,20 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { lazy } from 'react';
+import { lazy } from "react";
 
-
-const Home = lazy(() => import("./pages/Home/Home"))
-const Contact = lazy(() => import("./pages/Contact/Contact"))
-const News = lazy(() => import("./pages/News/News"))
-const Struki = lazy(() => import("./pages/Struki/Struki"))
-const About = lazy(() => import("./pages/About/About"))
-const Gallery = lazy(() => import("./pages/Gallery/Gallery"))
-const Post = lazy(() => import("./pages/News/Post/Post"))
-const NewPost = lazy(() => import("./pages/News/NewPost/NewPost"))
-const NotFound = lazy(() => import("./pages/NotFound/NotFound"))
-const Elektro = lazy(() => import("./pages/Struki/Elektro/Elektro"))
-const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"))
-const Metalurski = lazy(() => import("./pages/Struki/Metalurski/Metalurski"))
+const Home = lazy(() => import("./pages/Home/Home"));
+const Contact = lazy(() => import("./pages/Contact/Contact"));
+const News = lazy(() => import("./pages/News/News"));
+const Struki = lazy(() => import("./pages/Struki/Struki"));
+const About = lazy(() => import("./pages/About/About"));
+const Gallery = lazy(() => import("./pages/Gallery/Gallery"));
+const Post = lazy(() => import("./pages/News/Post/Post"));
+const NewPost = lazy(() => import("./pages/News/NewPost/NewPost"));
+const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
+const Elektro = lazy(() => import("./pages/Struki/Elektro/Elektro"));
+const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"));
+const Metalurski = lazy(() => import("./pages/Struki/Metalurski/Metalurski"));
 // import Home from "./pages/Home/Home";
 // import Contact from "./pages/Contact/Contact";
 // import News from "./pages/News/News";
@@ -44,10 +43,10 @@ function App() {
           <Route path="*" element={<NotFound />} />
 
           <Route path="/struki">
-            <Route index element={<Struki />}/>
-            <Route path="elektro" element={<Elektro />}/>
-            <Route path="masinski" element={<Masinski/ >}/>
-            <Route path="metalurski" element={<Metalurski />}/>
+            <Route index element={<Struki />} />
+            <Route path="elektro" element={<Elektro />} />
+            <Route path="masinski" element={<Masinski />} />
+            <Route path="metalurski" element={<Metalurski />} />
           </Route>
 
           <Route path="/news">

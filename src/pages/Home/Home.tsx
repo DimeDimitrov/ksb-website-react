@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <Header />
       <Struki />
-      <News />
+      <News numPosts={3} />
       <Footer />
     </>
   );

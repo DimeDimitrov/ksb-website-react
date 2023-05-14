@@ -9,6 +9,7 @@ const Elektro = () => {
       <Banner img="/Struki/elektro.jpg" text="Електротехничка струка" />
       <div className="container">
         <div className="row">
+          <hr />
           <h4>Електротехничар за компјутерска техника и автоматика</h4>
           <hr />
           <div className="col-sm-3">
@@ -92,6 +93,7 @@ const Elektro = () => {
       </div>
       <div className="container">
         <div className="row">
+          <hr />
           <h4>Електротехничар енергетичар</h4>
           <hr />
           <div className="col-sm-3">
@@ -162,6 +164,7 @@ const Elektro = () => {
         </div>
       </div>
       <div className="container">
+        <hr />
         <h4>Техничар за индустриска мехатроника</h4>
         <hr />
         <div className="row">

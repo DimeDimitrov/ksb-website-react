@@ -11,7 +11,7 @@ const Footer = () => {
             <img src="/Sponsors/feni.png" />
           </a>
           <a className="igm" href="https://www.igmtrade.com/">
-            <img src="./Sponsors/Igmtrade.jpg" />
+            <img src="/Sponsors/Igmtrade.jpg" />
           </a>
           <a href="https://www.draexlmaier.com/en/">
             <img src="/Sponsors/draexelmaier.png" />

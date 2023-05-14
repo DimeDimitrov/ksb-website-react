@@ -24,6 +24,7 @@ p::before {
   padding-right: 2%;
 }
 p {
+  font-size: 20px;
   width: 100%;
   display: flex;
   align-items: center;

@@ -1,7 +1,6 @@
 import "./NewsCards.css";
 import posts from "../posts";
 import { useState } from "react";
-import Pagination from "../Pagination/Pagination";
 
 interface NewsProps {
   title: string;
@@ -27,11 +26,22 @@ const NewsCard = ({ title, image, daysAgo, postId }: NewsProps) => {
 
 const NewsCards = () => {
   const [currentPage, setCurrentPage] = useState(1);
+  const [displayedPosts, setDisplayedPosts] = useState(
+    Object.values(posts).reverse().slice(0, 8)
+  );
   const itemsPerPage = 8;
 
-  const displayedPosts = Object.values(posts)
-    .reverse()
-    .slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+  const totalPages = Math.ceil(Object.keys(posts).length / itemsPerPage);
+
+  const handleSeeMore = () => {
+    const nextPage = currentPage + 1;
+    const newPosts = Object.values(posts)
+      .reverse()
+      .slice((nextPage - 1) * itemsPerPage, nextPage * itemsPerPage);
+
+    setDisplayedPosts([...displayedPosts, ...newPosts]);
+    setCurrentPage(nextPage);
+  };
 
   return (
     <div className="band">
@@ -46,11 +56,11 @@ const NewsCards = () => {
           />
         </div>
       ))}
-      <Pagination
-        currentPage={currentPage}
-        totalPages={Math.ceil(Object.keys(posts).length / itemsPerPage)}
-        onPageChange={setCurrentPage}
-      />
+      {currentPage < totalPages && (
+        <button className="see-more-button" onClick={handleSeeMore}>
+          Прикажи повеке
+        </button>
+      )}
     </div>
   );
 };

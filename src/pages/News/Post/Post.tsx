@@ -19,10 +19,6 @@ function Post() {
     <div>
       <Navbar />
 
-      <h1>{post.title}</h1>
-      <img src={post.image} alt={post.title} height={240} width={1080} />
-      <p>{post.daysAgo} days ago</p>
-
       <div dangerouslySetInnerHTML={{ __html: postsContent[id].content }} />
 
       <Footer />

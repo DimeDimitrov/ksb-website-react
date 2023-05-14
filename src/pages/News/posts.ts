@@ -95,18 +95,18 @@ const posts: Posts = {
     daysAgo: 20,
   },
   18: {
-    title: 'OVA E MALKU POSTAR POST AMA PAK E NOV MUAHAHAH',
-    image: "/News/1.jpg",
+    title: 'СОУ "Киро Спанџов Брко" е вклучено како партнер во Еразмус + проект во соработка со компанијата Дрекслмаер и училишта и компании од Германија, Кипар и Романија',
+    image: "/News/18.png",
     daysAgo: 10,
   },
   19: {
-    title: 'OVA E VTOR NAJNOV POST HAHAHAHAHAHAHAHAHAAH',
-    image: "/News/2.jpg",
+    title: 'ВАШАТА ИДНИНА, НАШ ФОКУС',
+    image: "/News/19.png",
     daysAgo: 5,
   },
   20: {
-    title: 'OVA E NAJNOV POST NA KSB KIRO SAANDZOV BRKO',
-    image: "/News/3.jpg",
+    title: 'Учениците од СОУ„Киро Спанџов-Брко“ Кавадарци изминатите три месеци учествуваа во ЦКА-ПХВ програмата.',
+    image: "/News/20.jpg",
     daysAgo: 2,
   },
 };

@@ -1,6 +1,13 @@
 import "./Navbar.css";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="container no-gutters">
       <nav className="navbar navbar-expand-lg py-4 navbar-dark">
@@ -39,7 +46,11 @@ const Navbar = () => {
                 </div>
               </li>
             </div>
-            <div className="navmenu collapse navbar-collapse fadeinRight">
+            <div
+              className={`navmenu collapse navbar-collapse fadeinRight ${
+                isOpen ? "show" : ""
+              }`}
+            >
               <ul className="navbar-nav ms-auto py-2 ">
                 <li className="nav-item">
                   <a href="home" className="nav-link">
@@ -82,8 +93,7 @@ const Navbar = () => {
           <button
             className="navbar-toggler md-auto hamburger-menu "
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target=".navmenu"
+            onClick={toggleMenu}
           >
             <span className="navbar-toggler-icon"></span>
           </button>

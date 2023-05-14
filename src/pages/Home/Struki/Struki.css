@@ -89,7 +89,7 @@
     background: rgba(21, 34, 65, 0.521);
     border-radius: 10px;
     margin-bottom: 5%;
-    box-sizing: border-box;
+    min-height: 100%;
     cursor: pointer;
     transition: 0.5s;
   }

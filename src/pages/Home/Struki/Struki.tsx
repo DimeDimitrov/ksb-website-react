@@ -1,4 +1,3 @@
-
 import "./Struki.css";
 
 const Struki = () => {
@@ -6,13 +5,18 @@ const Struki = () => {
     <section className="struki" id="2">
       <h1>Струки</h1>
       <div id="secti"></div>
-      <div className="row">
-        <div className="row-el reveal animated fadeinLeft">
-          <div className="struki-col el0" onClick={() => {
-            window.location.href = "/struki/masinski"
-          }}>
+      <div className="row g-4">
+        <div className="col-md-3">
+          <div
+            className="struki-col el0 reveal animated fadeinLeft"
+            onClick={() => (window.location.href = "/struki/masinski")}
+          >
             <div className="row-img">
-              <img src="/Struki/masinska.jpg" />
+              <img
+                src="/Struki/masinska.jpg"
+                className="img-fluid"
+                alt="Машинска струка"
+              />
             </div>
             <h3>Машинска струка</h3>
             <ul>
@@ -28,12 +32,17 @@ const Struki = () => {
             </ul>
           </div>
         </div>
-        <div className="row-el animated fadeinTop">
-          <div className="struki-col el2" onClick={() => {
-            window.location.href = "/struki/elektro"
-          }}>
+        <div className="col-md-3">
+          <div
+            className="struki-col el2 animated fadeinTop"
+            onClick={() => (window.location.href = "/struki/elektro")}
+          >
             <div className="row-img">
-              <img src="/Struki/elektro.jpg" />
+              <img
+                src="/Struki/elektro.jpg"
+                className="img-fluid"
+                alt="Електротехничка струка"
+              />
             </div>
             <h3>Електротехничка струка</h3>
             <ul>
@@ -51,12 +60,17 @@ const Struki = () => {
             </ul>
           </div>
         </div>
-        <div className="row-el reveal animated fadeinRight">
-          <div className="struki-col el1" onClick={() => {
-            window.location.href = "/struki/metalurski"
-          }}>
+        <div className="col-md-3">
+          <div
+            className="struki-col el1 reveal animated fadeinRight"
+            onClick={() => (window.location.href = "/struki/metalurski")}
+          >
             <div className="row-img">
-              <img src="/Struki/metalurska.jpg" />
+              <img
+                src="/Struki/metalurska.jpg"
+                className="img-fluid"
+                alt="Геолошко, рударски-металуршка струка"
+              />
             </div>
             <h3>Геолошко, рударски-металуршка струка</h3>
             <ul>
@@ -67,14 +81,6 @@ const Struki = () => {
           </div>
         </div>
       </div>
-      <div id="row"></div>
-      <section id="section08" className="demo">
-        <a href="#secti1">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </section>
     </section>
   );
 };

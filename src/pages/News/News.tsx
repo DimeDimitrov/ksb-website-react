@@ -7,8 +7,9 @@ import Banner from "../../components/Banner/Banner";
 const News = () => {
   return (
     <>
-      <Navbar />
-      <Banner img="/News/banner.jpg" text="Новости" />
+      <Banner img="/News/banner.jpg" text="Новости">
+        <Navbar />
+      </Banner>
       <NewsCards />
       <Footer />
     </>

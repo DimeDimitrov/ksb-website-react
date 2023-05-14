@@ -10,8 +10,9 @@ import SortButtons from "./SortButtons/SortButtons";
 const About = () => {
   return (
     <>
-      <Navbar />
-      <Banner img="/About/banner.jpg" text="За нас" />
+      <Banner img="/About/banner.jpg" text="За нас">
+        <Navbar />
+      </Banner>
       <SortButtons />
       <History />
       <Mission />

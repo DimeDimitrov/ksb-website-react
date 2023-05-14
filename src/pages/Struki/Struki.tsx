@@ -7,8 +7,9 @@ import Banner from "../../components/Banner/Banner";
 const Struki = () => {
   return (
     <>
-      <Navbar />
-      <Banner img="/Struki/banner.jpg" text="Струки" />
+      <Banner img="/Struki/banner.jpg" text="Струки">
+        <Navbar />
+      </Banner>
       <StrukiMain />
       <Footer />
     </>

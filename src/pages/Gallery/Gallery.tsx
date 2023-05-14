@@ -7,8 +7,9 @@ import Banner from "../../components/Banner/Banner";
 const Gallery = () => {
   return (
     <>
-      <Navbar />
-      <Banner img="/Gallery/banner.jpg" text="Галерија" />
+      <Banner img="/Gallery/banner.jpg" text="Галерија">
+        <Navbar />
+      </Banner>
       <Natprevari />
       <Footer />
     </>

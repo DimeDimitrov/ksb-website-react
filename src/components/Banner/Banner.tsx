@@ -1,11 +1,13 @@
 import "./Banner.css";
+import { ReactNode } from "react";
 
 interface Props {
   img: string;
   text: string;
+  children: ReactNode;
 }
 
-const Banner = ({ img, text }: Props) => {
+const Banner = ({ img, text, children }: Props) => {
   return (
     <section
       className="sub-header"
@@ -14,6 +16,7 @@ const Banner = ({ img, text }: Props) => {
         url(${img})`,
       }}
     >
+      {children}
       <div className="homepage">
         <h1 className="fadeinTop">{text}</h1>
       </div>

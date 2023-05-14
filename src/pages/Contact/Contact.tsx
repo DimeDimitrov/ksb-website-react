@@ -8,8 +8,9 @@ import Banner from "../../components/Banner/Banner";
 const Contact = () => {
   return (
     <>
-      <Navbar />
-      <Banner img="/Contact/banner.jpg" text="Контакт" />
+      <Banner img="/Contact/banner.jpg" text="Контакт">
+        <Navbar />
+      </Banner>
       <Location />
       <Form />
       <Footer />

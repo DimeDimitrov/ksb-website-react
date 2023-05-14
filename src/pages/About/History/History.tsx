@@ -28,7 +28,7 @@ const History = () => {
 
       <section className="half-half">
         <div className="image-center">
-          <img src="../public/About/banner.jpg" className="half-left" />
+          <img src="/About/banner.jpg" className="half-left" />
           <div className="half-half-text">
             <h2>Формирање и развој</h2>
             <p>

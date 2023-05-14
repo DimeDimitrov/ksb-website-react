@@ -1,7 +1,11 @@
 import "./Loader.css"
 
 const Loader = () => {
-  return <div className="spinner-border" role="status"></div>;
+  return (
+    <div className="Screen">
+      <div className="spinner-border" role="status"></div>
+    </div>
+  );
 };
 
 export default Loader;

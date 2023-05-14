@@ -1,16 +1,14 @@
 .homepage {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(221, 219, 219);
-  }
-  .sub-header {
-    height: 50vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    border-bottom: 1px solid white;
-  }
-  
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  color: rgb(221, 219, 219);
+}
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-bottom: 1px solid white;
+}

@@ -5,8 +5,9 @@ import "./Elektro.css";
 const Elektro = () => {
   return (
     <>
-      <Navbar />
-      <Banner img="/Struki/elektro.jpg" text="Електротехничка струка" />
+      <Banner img="/Struki/elektro.jpg" text="Електротехничка струка" >
+        <Navbar />
+      </Banner>
       <div className="container">
         <div className="row">
           <hr />

@@ -18,7 +18,7 @@ const Navbar = () => {
                       src="/Flags/macedonianFlag.png"
                       alt="Makedonski"
                       draggable="false"
-                      />
+                    />
                   </div>
                   <div className="langSelect">
                     <img
@@ -26,7 +26,7 @@ const Navbar = () => {
                       src="/Flags/englishFlag.png"
                       alt="English"
                       draggable="false"
-                      />
+                    />
                   </div>
                   <div className="langSelect">
                     <img
@@ -34,7 +34,7 @@ const Navbar = () => {
                       src="/Flags/albanianFlag.png"
                       alt="Albanski"
                       draggable="false"
-                      />
+                    />
                   </div>
                 </div>
               </li>
@@ -44,6 +44,11 @@ const Navbar = () => {
                 <li className="nav-item">
                   <a href="home" className="nav-link">
                     Почетна
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="upisi" className="nav-link">
+                    Уписи
                   </a>
                 </li>
                 <li className="nav-item">

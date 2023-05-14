@@ -1,0 +1,11 @@
+.upisi-container{
+    color: white;
+    display: flex;
+    justify-content: center !important;
+}
+.wrapper{
+    width: 70%;
+}
+strong{
+    color: red;
+}

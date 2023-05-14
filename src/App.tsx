@@ -17,6 +17,7 @@ const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 const Elektro = lazy(() => import("./pages/Struki/Elektro/Elektro"));
 const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"));
 const Metalurski = lazy(() => import("./pages/Struki/Metalurski/Metalurski"));
+const Upisi = lazy(() => import("./pages/Upisi/Upisi"));
 // import Home from "./pages/Home/Home";
 // import Contact from "./pages/Contact/Contact";
 // import News from "./pages/News/News";
@@ -90,6 +91,14 @@ function App() {
             element={
               <Suspense fallback={<Loader />}>
                 <NotFound />
+              </Suspense>
+            }
+          />
+          <Route
+            path="upisi"
+            element={
+              <Suspense fallback={<Loader />}>
+                <Upisi />
               </Suspense>
             }
           />

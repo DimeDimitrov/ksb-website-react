@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(221, 219, 219);
   }
   .sub-header {
     height: 50vh;

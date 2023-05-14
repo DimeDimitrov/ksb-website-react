@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { lazy } from "react";
 import { Suspense } from "react";
+import Loader from "./components/Loader/Loader";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
@@ -38,7 +39,7 @@ function App() {
           <Route
             index
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<Loader />}>
                 <Home />
               </Suspense>
             }
@@ -47,7 +48,7 @@ function App() {
           <Route
             path="/index"
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<Loader />}>
                 <Home />
               </Suspense>
             }
@@ -55,7 +56,7 @@ function App() {
           <Route
             path="/home"
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<Loader />}>
                 <Home />
               </Suspense>
             }
@@ -63,7 +64,7 @@ function App() {
           <Route
             path="/contact"
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<Loader />}>
                 <Contact />
               </Suspense>
             }
@@ -71,7 +72,7 @@ function App() {
           <Route
             path="/about"
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<Loader />}>
                 <About />
               </Suspense>
             }
@@ -79,7 +80,7 @@ function App() {
           <Route
             path="/gallery"
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<Loader />}>
                 <Gallery />
               </Suspense>
             }
@@ -87,7 +88,7 @@ function App() {
           <Route
             path="*"
             element={
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<Loader />}>
                 <NotFound />
               </Suspense>
             }
@@ -96,7 +97,7 @@ function App() {
             <Route
               index
               element={
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<Loader />}>
                   <Struki />
                 </Suspense>
               }
@@ -104,7 +105,7 @@ function App() {
             <Route
               path="elektro"
               element={
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<Loader />}>
                   <Elektro />
                 </Suspense>
               }
@@ -112,7 +113,7 @@ function App() {
             <Route
               path="masinski"
               element={
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<Loader />}>
                   <Masinski />
                 </Suspense>
               }
@@ -120,7 +121,7 @@ function App() {
             <Route
               path="metalurski"
               element={
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<Loader />}>
                   <Metalurski />
                 </Suspense>
               }
@@ -130,7 +131,7 @@ function App() {
             <Route
               index
               element={
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<Loader />}>
                   <News />
                 </Suspense>
               }
@@ -138,7 +139,7 @@ function App() {
             <Route
               path=":id"
               element={
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<Loader />}>
                   <Post />
                 </Suspense>
               }
@@ -146,7 +147,7 @@ function App() {
             <Route
               path="new"
               element={
-                <Suspense fallback={<div>Loading...</div>}>
+                <Suspense fallback={<Loader />}>
                   <NewPost />
                 </Suspense>
               }

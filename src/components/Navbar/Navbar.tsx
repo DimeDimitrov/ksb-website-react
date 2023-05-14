@@ -53,37 +53,37 @@ const Navbar = () => {
             >
               <ul className="navbar-nav ms-auto py-2 ">
                 <li className="nav-item">
-                  <a href="home" className="nav-link">
+                  <a href="/home" className="nav-link">
                     Почетна
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="upisi" className="nav-link">
+                  <a href="/upisi" className="nav-link">
                     Уписи
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="news" className="nav-link">
+                  <a href="/news" className="nav-link">
                     Новости
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="gallery" className="nav-link">
+                  <a href="/gallery" className="nav-link">
                     Галерија
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="struki" className="nav-link">
+                  <a href="/struki" className="nav-link">
                     Струки
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="about" className="nav-link">
+                  <a href="/about" className="nav-link">
                     За Нас
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="contact" className="nav-link">
+                  <a href="/contact" className="nav-link">
                     Контакт
                   </a>
                 </li>

@@ -4,6 +4,7 @@ import "./App.css";
 import { lazy } from "react";
 import { Suspense } from "react";
 import Loader from "./components/Loader/Loader";
+import Secret from "./components/Secret/Secret";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
@@ -162,6 +163,7 @@ function App() {
               }
             />
           </Route>
+          <Route path="/news/420" element={<Secret />} />
         </Routes>
       </BrowserRouter>
     </>

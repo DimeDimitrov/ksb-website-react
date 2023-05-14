@@ -12,7 +12,10 @@ interface NewsProps {
 
 const NewsCard = ({ title, image, daysAgo, postId }: NewsProps) => {
   return (
-    <a href={`/news/${postId}`} className="card">
+    <a
+      href={`/news/${Object.keys(posts).length - postId + 1}`}
+      className="card"
+    >
       <div className="thumb" style={{ backgroundImage: `url(${image})` }}></div>
       <article>
         <h1>{title}</h1>
@@ -27,7 +30,6 @@ const NewsCards = () => {
   const itemsPerPage = 8;
 
   const displayedPosts = Object.values(posts)
-
     .reverse()
     .slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 

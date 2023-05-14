@@ -1,21 +1,11 @@
 body{
     color: rgb(206, 203, 203);
 }
-/* Set the container to display flex and wrap to allow for multiple rows */
-.struka {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  /* Set the width of each sub-struka div to 25% to create 4 columns */
-  .sub-struka {
-    width: 25%;
-    padding: 0 15px;
-  }
-  
-  /* Clear the padding and margin of the ul and li elements */
-  .predemti ul,
-  .predemti li {
-    margin: 0;
-    padding: 0;
-  }
+h4{
+  color: rgb(63, 114, 209);
+  font-weight: bold;
+  padding: 1%;
+}
+ul.row{
+  list-style-type: circle;
+}

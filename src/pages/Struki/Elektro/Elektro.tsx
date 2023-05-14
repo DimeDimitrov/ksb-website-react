@@ -6,71 +6,11 @@ const Elektro = () => {
   return (
     <>
       <Navbar />
-      <Banner img="/Struki/elektro.jpg" text="Elektro" />
-      {/* <div className="struka fadeinRight">
-        <div className="electro" id="struka" data-struka="Elektro">
-          <h2>Електротехничка струка</h2>
-        </div>
-        <div className="sub-struki" data-struka="Elektro">
-          <div className="sub-struka">
-            <span id="predmeti" data-subStr="Eltehnicar-auto">
-              Предемети
-            </span>
-            <div className="predemti" data-subStr="Eltehnicar-auto">
-              <br />
-
-              <br />
-
-              <br />
-            </div>
-          </div>
-          <div className="sub-struka">
-            
-            <span id="predmeti" data-subStr="Energeticar">
-              Предемети
-            </span>
-            <div className="predemti" data-subStr="Energeticar">
-              
-              <br />
-              
-              <br />
-              
-              <br />
-              
-            </div>
-          </div>
-          <div className="sub-struka">
-            
-            <span id="predmeti" data-subStr="Mehatronika">
-              Предемети
-            </span>
-            <div className="predemti" data-subStr="Mehatronika">
-             
-              <br />
-              
-              <br />
-              
-              <br />
-              <ul>
-                <h5>Четврта година:</h5>
-                <br />
-                <li>Македонски јазик и литература</li>
-                <li>Англиски јазик</li>
-                <li>Спорт и спортски активности</li>
-                <li>Математика</li>
-                <li>/</li>
-                <li>/</li>
-                <li>/</li>
-                <li>/</li>
-                <li>/</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      <Banner img="/Struki/elektro.jpg" text="Електротехничка струка" />
       <div className="container">
         <div className="row">
           <h4>Електротехничар за компјутерска техника и автоматика</h4>
+          <hr />
           <div className="col-sm-3">
             <ul>
               <h5>Прва година:</h5>
@@ -153,6 +93,7 @@ const Elektro = () => {
       <div className="container">
         <div className="row">
           <h4>Електротехничар енергетичар</h4>
+          <hr />
           <div className="col-sm-3">
             <ul>
               <h5>Прва година:</h5>
@@ -222,6 +163,7 @@ const Elektro = () => {
       </div>
       <div className="container">
         <h4>Техничар за индустриска мехатроника</h4>
+        <hr />
         <div className="row">
           <div className="col-sm-3">
             <ul>
@@ -268,6 +210,21 @@ const Elektro = () => {
               <li>Процесно управување</li>
               <li>Микропроцесори и микроконтролери</li>
               <li>Мехатронички системи</li>
+            </ul>
+          </div>
+          <div className="col-sm-3">
+            <ul>
+              <h5>Четврта година:</h5>
+              <br />
+              <li>Македонски јазик и литература</li>
+              <li>Англиски јазик</li>
+              <li>Спорт и спортски активности</li>
+              <li>Математика</li>
+              <li>/</li>
+              <li>/</li>
+              <li>/</li>
+              <li>/</li>
+              <li>/</li>
             </ul>
           </div>
         </div>

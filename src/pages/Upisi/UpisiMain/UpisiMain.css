@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center !important;
 }
-h1 {
+.entry-title {
   padding: 7% 0;
 }
 ul {

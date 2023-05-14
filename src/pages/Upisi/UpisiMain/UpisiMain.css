@@ -1,11 +1,53 @@
-.upisi-container{
-    color: white;
-    display: flex;
-    justify-content: center !important;
+.upisi-container {
+  color: white;
+  display: flex;
+  justify-content: center !important;
 }
-.wrapper{
-    width: 70%;
+h1 {
+  padding: 7% 0;
 }
-strong{
-    color: red;
+ul {
+  padding-left: 0 !important;
+}
+h2 {
+  padding: 2% 0;
+  font-size: 25px;
+}
+.wrapper {
+  width: 70%;
+  padding-bottom: 10%;
+}
+p::before {
+  content: "•";
+  color: rgb(0, 255, 255);
+  font-size: 30px;
+  padding-right: 2%;
+}
+p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left !important;
+}
+strong {
+  color: rgb(63, 114, 209);
+}
+
+.remove {
+  display: block;
+}
+.remove::before {
+  content: "";
+  padding-right: 0;
+}
+.circle::before {
+  content: "•";
+  color: rgb(0, 255, 255);
+  font-size: 30px;
+  padding-right: 2%;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

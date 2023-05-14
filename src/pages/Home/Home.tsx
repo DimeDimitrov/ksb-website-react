@@ -11,6 +11,8 @@ const Home = () => {
       <Header />
       <Struki />
       <News numPosts={3} />
+      <br />
+      <br />
       <Footer />
     </>
   );

@@ -1,5 +1,16 @@
 import "./Navigation.css";
 
+const Animation = () => {
+  return (
+    <>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </>
+  );
+};
+
 const Navigation = () => {
   return (
     <div className="button-container fadeinTop">
@@ -7,15 +18,15 @@ const Navigation = () => {
         <ul>
           <li>
             Еко
-            <span></span><span></span><span></span><span></span>
+            <Animation />
           </li>
           <li>
             Практична настава
-            <span></span><span></span><span></span><span></span>
+            <Animation />
           </li>
           <li>
             Натпревари
-            <span></span><span></span><span></span><span></span>
+            <Animation />
           </li>
         </ul>
       </nav>

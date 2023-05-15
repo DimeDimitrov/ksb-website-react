@@ -60,14 +60,22 @@ const Natprevari = () => {
               position: "absolute",
               top: 0,
               right: 0,
-              border: "none",
               padding: "10px",
-              background: "gray",
+              backgroundColor: "transparent",
+              borderWidth: 0,
+              fontSize: "2rem",
             }}
           >
-            X
+            x
           </button>
-          <button onClick={() => imgAction("previous-img")}>Previous</button>
+          <button onClick={() => imgAction("previous-img")}style={{
+            position: "absolute",
+            backgroundColor: "transparent",
+            borderWidth: 0,
+            fontSize: "4rem",
+            margin: "1%",
+            left: 0,
+          }}>‹</button>
           <img
             src={data.img}
             style={{
@@ -76,7 +84,14 @@ const Natprevari = () => {
               maxHeight: "90%",
             }}
           />
-          <button onClick={() => imgAction("next-img")}>Next</button>
+          <button onClick={() => imgAction("next-img")}style={{
+            position: "absolute",
+            backgroundColor: "transparent",
+            borderWidth: 0,
+            fontSize: "4rem",
+            margin: "1%",
+            right: 0,
+          }}>›</button>
         </div>
       )}
       <div style={{ padding: "10px" }}>

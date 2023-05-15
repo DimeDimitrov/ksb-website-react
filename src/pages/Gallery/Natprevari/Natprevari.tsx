@@ -91,6 +91,7 @@ const Natprevari = () => {
             fontSize: "4rem",
             margin: "1%",
             right: 0,
+            
           }}>›</button>
         </div>
       )}

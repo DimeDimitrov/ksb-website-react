@@ -4,9 +4,11 @@ import Footer from "../../components/Footer/Footer";
 import Natprevari from "./Natprevari/Natprevari";
 import Banner from "../../components/Banner/Banner";
 import Prakticna from "./Prakticna/Prakticna";
-import BackToTop from "../../components/BackToTop/BackToTop";
 import Navigation from "./Navigation/Navigation";
 import Eko from "./Eko/Eko";
+
+import { lazy } from "react";
+const BackToTop = lazy(() => import("../../components/BackToTop/BackToTop"));
 
 const Gallery = () => {
   return (

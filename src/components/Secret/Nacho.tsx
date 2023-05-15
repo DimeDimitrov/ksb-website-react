@@ -15,6 +15,8 @@ const Nacho = () => {
   const [wrongAnswerCount, setWrongAnswerCount] = useState(0);
   const [imageSrc, setImageSrc] = useState(NACHO);
   const [alertMessage, setAlertMessage] = useState("");
+  const [isTransparent, setIsTransparent] = useState(false);
+  const [showImage, setShowImage] = useState(false);
 
   const angryNachoImages = [
     null,
@@ -33,7 +35,10 @@ const Nacho = () => {
 
   // win/lose handling
   const handleWin = () => {};
-  const handleLose = () => {};
+  const handleLose = () => {
+    setIsTransparent(true);
+    setShowImage(true);
+  };
 
   const checkAnswer = () => {
     if (answer === "4") {
@@ -58,17 +63,33 @@ const Nacho = () => {
   };
   return (
     <>
-      <h1>WILD NACHO IN YOUR AREA!</h1>
-      <h1>ANSWER THIS QUESTION OR FACE THE CONSEQUENCES</h1>
-      <img src={imageSrc} alt="NACHO.png" width={"400px"} />
-      <h2>How many children has NACHO euthanised?</h2>
-      <input
-        type="text"
-        value={answer}
-        onChange={(e) => setAnswer(e.target.value)}
-        onKeyDown={handleKeyDown}
-      />
-      {alertMessage && <div>{alertMessage}</div>}
+      {showImage && (
+        <img
+          style={{
+            position: "absolute",
+            display: "none",
+            opacity: "0",
+            width: "100%",
+            height: "100%",
+          }}
+          src={HAPPYNACHO}
+          alt="Fading Image"
+          className={` ${isTransparent ? "fade-in" : ""}`}
+        />
+      )}
+      <div className={`App ${isTransparent ? "transparent" : ""}`}>
+        <h1>WILD NACHO IN YOUR AREA!</h1>
+        <h1>ANSWER THIS QUESTION OR FACE THE CONSEQUENCES</h1>
+        <img src={imageSrc} alt="NACHO.png" width={"400px"} />
+        <h2>How many children has NACHO euthanised?</h2>
+        <input
+          type="text"
+          value={answer}
+          onChange={(e) => setAnswer(e.target.value)}
+          onKeyDown={handleKeyDown}
+        />
+        {alertMessage && <div>{alertMessage}</div>}
+      </div>
     </>
   );
 };

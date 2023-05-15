@@ -15,6 +15,7 @@ const Post = lazy(() => import("./pages/News/Post/Post"));
 const NewPost = lazy(() => import("./pages/News/NewPost/NewPost"));
 const Secret = lazy(() => import("./components/Secret/Secret"));
 const Nacho = lazy(() => import("./components/Secret/Nacho"));
+const Creators = lazy(() => import("./pages/Creators/Creators"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 const Elektro = lazy(() => import("./pages/Struki/Elektro/Elektro"));
 const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"));
@@ -153,6 +154,7 @@ function App() {
           </Route>
           <Route path="/news/420" element={<Secret />} />
           <Route path="/nacho" element={<Nacho />} />
+          <Route path="/creators" element={<Creators />} />
         </Routes>
       </BrowserRouter>
     </>

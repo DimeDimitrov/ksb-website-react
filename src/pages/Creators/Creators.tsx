@@ -13,13 +13,15 @@ const Creators = () => {
       </h1>
       <h1>Project ported to React on 05.2023</h1>
       <h1>Team members : </h1>
-      <a href="">Dimitar Dimitrov</a>
+      <a href="https://github.com/DimeDimitrov">Dimitar Dimitrov</a>
       <br />
-      <a href="">Jovan Mitrev</a>
+      <a href="https://github.com/FrozenXE">Jovan Mitrev</a>
       <br />
-      <a href="">Stefan Panov</a>
+      <a href="https://github.com/Stefchee">Stefan Panov</a>
       <br />
-      <a href="">Petar Stefanov</a>
+      <a href="https://github.com/Suddke">
+        Petar Stefanov (Currently no commits as of React port)
+      </a>
       <br />
 
       <h2>There are some easter eggs on the site, good luck finding them c:</h2>

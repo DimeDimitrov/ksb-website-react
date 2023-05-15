@@ -58,10 +58,30 @@ const Nacho = () => {
         setAlertMessage("You are about to get raped");
         handleLose();
       } else {
-        const angryNachoImage = angryNachoImages[wrongAnswerCount + 1];
-        setImageSrc(angryNachoImage!);
-        //incorrect answer
-        setAlertMessage("Deck tiii... ti RETARDIRAN LI SI BE?");
+        if (wrongAnswerCount == 0) {
+          const angryNachoImage = angryNachoImages[wrongAnswerCount + 1];
+          setImageSrc(angryNachoImage!);
+
+          setAlertMessage("You are making Nacho sad with your small number");
+        }
+        if (wrongAnswerCount == 1) {
+          const angryNachoImage = angryNachoImages[wrongAnswerCount + 1];
+          setImageSrc(angryNachoImage!);
+
+          setAlertMessage("Nacho is getting angry...");
+        }
+        if (wrongAnswerCount == 2) {
+          const angryNachoImage = angryNachoImages[wrongAnswerCount + 1];
+          setImageSrc(angryNachoImage!);
+
+          setAlertMessage("Do not disturb Nacho more than you need to...");
+        }
+        if (wrongAnswerCount == 3) {
+          const angryNachoImage = angryNachoImages[wrongAnswerCount + 1];
+          setImageSrc(angryNachoImage!);
+
+          setAlertMessage("Nacho is giving you his last straw");
+        }
       }
     }
   };
@@ -92,7 +112,7 @@ const Nacho = () => {
           onChange={(e) => setAnswer(e.target.value)}
           onKeyDown={handleKeyDown}
         />
-        {alertMessage && <div>{alertMessage}</div>}
+        {alertMessage && <div className="alert">{alertMessage}</div>}
       </div>
     </>
   );

@@ -34,7 +34,11 @@ const Nacho = () => {
   };
 
   // win/lose handling
-  const handleWin = () => {};
+  const handleWin = () => {
+    setTimeout(() => {
+      window.location.href = "https://www.pornhub.com/";
+    }, 3000);
+  };
   const handleLose = () => {
     setIsTransparent(true);
     setShowImage(true);

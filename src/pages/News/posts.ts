@@ -46,7 +46,7 @@ const posts: Posts = {
   },
   8: {
     title: 'Post 8',
-    image: "/News/33.jpg",
+    image: "/News/3.jpg",
     daysAgo: 70,
   },
   9: {

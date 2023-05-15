@@ -44,24 +44,26 @@ const NewsCards = () => {
   };
 
   return (
-    <div className="band">
-      {displayedPosts.map((post, index) => (
-        <div key={index} className={"item"}>
-          <NewsCard
-            key={index}
-            postId={index + 1}
-            title={post.title}
-            image={post.image}
-            daysAgo={post.daysAgo}
-          />
-        </div>
-      ))}
+    <>
+      <div className="band">
+        {displayedPosts.map((post, index) => (
+          <div key={index} className={"item"}>
+            <NewsCard
+              key={index}
+              postId={index + 1}
+              title={post.title}
+              image={post.image}
+              daysAgo={post.daysAgo}
+            />
+          </div>
+        ))}
+      </div>
       {currentPage < totalPages && (
         <button className="see-more-button" onClick={handleSeeMore}>
           Прикажи повеке
         </button>
       )}
-    </div>
+    </>
   );
 };
 

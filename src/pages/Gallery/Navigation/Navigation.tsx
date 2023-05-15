@@ -3,15 +3,22 @@ import "./Navigation.css";
 const Navigation = () => {
   return (
     <div className="button-container fadeinTop">
-      <a href="#natprevari">
-        <button className="sort-btn">Натпревари</button>
-      </a>
-      <a href="#prakticna">
-        <button className="sort-btn">Практична настава</button>
-      </a>
-      <a href="#eko">
-        <button className="sort-btn">Еко</button>
-      </a>
+      <nav>
+        <ul>
+          <li>
+            Еко
+            <span></span><span></span><span></span><span></span>
+          </li>
+          <li>
+            Практична настава
+            <span></span><span></span><span></span><span></span>
+          </li>
+          <li>
+            Натпревари
+            <span></span><span></span><span></span><span></span>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 };

@@ -1,20 +1,32 @@
 import { useState } from "react";
-import "./Natprevari.css";
+import "./Prakticna.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
-  "/Gallery/Natprevari/1.jpg",
-  "/Gallery/Natprevari/2.jpg",
-  "/Gallery/Natprevari/3.jpg",
-  "/Gallery/Natprevari/4.jpg",
-  "/Gallery/Natprevari/5.jpg",
-  "/Gallery/Natprevari/6.jpg",
-  "/Gallery/Natprevari/7.jpg",
-  "/Gallery/Natprevari/8.jpg",
-  "/Gallery/Natprevari/9.jpg",
+  "/Gallery/Prakticna/1.jpg",
+  "/Gallery/Prakticna/2.jpg",
+  "/Gallery/Prakticna/3.jpg",
+  "/Gallery/Prakticna/4.jpg",
+  "/Gallery/Prakticna/5.jpg",
+  "/Gallery/Prakticna/6.jpg",
+  "/Gallery/Prakticna/7.jpg",
+  "/Gallery/Prakticna/8.jpg",
+  "/Gallery/Prakticna/9.jpg",
+  "/Gallery/Prakticna/10.jpg",
+  "/Gallery/Prakticna/11.jpg",
+  "/Gallery/Prakticna/12.jpg",
+  "/Gallery/Prakticna/13.jpg",
+  "/Gallery/Prakticna/14.jpg",
+  "/Gallery/Prakticna/15.jpg",
+  "/Gallery/Prakticna/16.jpg",
+  "/Gallery/Prakticna/17.jpg",
+  "/Gallery/Prakticna/18.jpg",
+  "/Gallery/Prakticna/19.jpg",
+  "/Gallery/Prakticna/20.jpg",
+  "/Gallery/Prakticna/21.jpg",
 ];
 
-const Natprevari = () => {
+const Prakticna = () => {
   const [data, setData] = useState({ img: "", i: 0 });
 
   const viewImage = (img: string, i: number) => {
@@ -35,7 +47,7 @@ const Natprevari = () => {
 
   return (
     <>
-      <h1 style={{ color: "white", padding: "10px" }}>Natprevari</h1>
+      <h1 style={{ color: "white", padding: "10px" }}>Prakticna</h1>
       {data.img && (
         <div
           style={{
@@ -107,4 +119,4 @@ const Natprevari = () => {
   );
 };
 
-export default Natprevari;
+export default Prakticna;

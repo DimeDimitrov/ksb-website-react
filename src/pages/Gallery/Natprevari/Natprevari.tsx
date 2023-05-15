@@ -34,8 +34,8 @@ const Natprevari = () => {
   };
 
   return (
-    <>
-      <h1 style={{ color: "white", padding: "10px" }}>Natprevari</h1>
+    <section id="natprevari">
+      <h1 style={{ color: "white", padding: "10px" }}>Натпревари</h1>
       {data.img && (
         <div
           style={{
@@ -103,7 +103,7 @@ const Natprevari = () => {
           </Masonry>
         </ResponsiveMasonry>
       </div>
-    </>
+    </section>
   );
 };
 

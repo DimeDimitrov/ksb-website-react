@@ -1,32 +1,19 @@
 import { useState } from "react";
-import "./Prakticna.css";
+import "./Eko.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
-  "/Gallery/Prakticna/1.jpg",
-  "/Gallery/Prakticna/2.jpg",
-  "/Gallery/Prakticna/3.jpg",
-  "/Gallery/Prakticna/4.jpg",
-  "/Gallery/Prakticna/5.jpg",
-  "/Gallery/Prakticna/6.jpg",
-  "/Gallery/Prakticna/7.jpg",
-  "/Gallery/Prakticna/8.jpg",
-  "/Gallery/Prakticna/9.jpg",
-  "/Gallery/Prakticna/10.jpg",
-  "/Gallery/Prakticna/11.jpg",
-  "/Gallery/Prakticna/12.jpg",
-  "/Gallery/Prakticna/13.jpg",
-  "/Gallery/Prakticna/14.jpg",
-  "/Gallery/Prakticna/15.jpg",
-  "/Gallery/Prakticna/16.jpg",
-  "/Gallery/Prakticna/17.jpg",
-  "/Gallery/Prakticna/18.jpg",
-  "/Gallery/Prakticna/19.jpg",
-  "/Gallery/Prakticna/20.jpg",
-  "/Gallery/Prakticna/21.jpg",
+  "/Gallery/Eko/1.jpg",
+  "/Gallery/Eko/2.jpg",
+  "/Gallery/Eko/3.jpg",
+  "/Gallery/Eko/4.jpg",
+  "/Gallery/Eko/5.jpg",
+  "/Gallery/Eko/6.jpg",
+  "/Gallery/Eko/7.jpg",
+  "/Gallery/Eko/8.jpg",
 ];
 
-const Prakticna = () => {
+const Eko = () => {
   const [data, setData] = useState({ img: "", i: 0 });
 
   const viewImage = (img: string, i: number) => {
@@ -46,8 +33,8 @@ const Prakticna = () => {
   };
 
   return (
-    <section id="prakticna">
-      <h1 style={{ color: "white", padding: "10px" }}>Практична</h1>
+    <section id="eko">
+      <h1 style={{ color: "white", padding: "10px" }}>Еколошки денови</h1>
       {data.img && (
         <div
           style={{
@@ -119,4 +106,4 @@ const Prakticna = () => {
   );
 };
 
-export default Prakticna;
+export default Eko;

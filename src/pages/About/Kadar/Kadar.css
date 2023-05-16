@@ -15,7 +15,6 @@
   flex-direction: column;
   justify-content: center;
   width: 80%;
-  margin: auto;
   padding: 0 3%;
 }
 .nav1 h3 {
@@ -56,4 +55,19 @@
 }
 .special{
   display: 'flex'; justify-content: 'center'; gap: "30px"; padding-top: "10px";
+}
+.kadar-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev{
+  padding-bottom: 8% !important;
+  font-size: 5rem;
+  cursor: pointer;
+}
+.next{
+  padding-bottom: 8% !important;
+  font-size: 5rem;
+  cursor: pointer;
 }

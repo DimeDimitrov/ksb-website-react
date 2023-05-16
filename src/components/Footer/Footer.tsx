@@ -26,7 +26,7 @@ const Footer = () => {
               <li>Јован Митрев - Design Lead</li>
               <li>Димитар Димитров - React Dev</li>
               <li>Стефан Панов - Responsive Design</li>
-              <li>Петар Стефанов</li>
+              <li>Петар Стефанов - Epic Gamer</li>
             </ul>
           </div>
         </div>

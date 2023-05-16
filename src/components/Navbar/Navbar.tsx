@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="container">
           <div className="wrap-element">
             <div className="logo-lang fadeinLeft">
-              <a href="home" className="navbar-brand">
+              <a href="/home" className="navbar-brand">
                 <img src="/logo.png" alt="Logo" />
               </a>
               <li className="flags">

@@ -54,3 +54,6 @@
   width: 15vw;
   transition: left 5s;
 }
+.special{
+  display: 'flex'; justify-content: 'center'; gap: "30px"; padding-top: "10px";
+}

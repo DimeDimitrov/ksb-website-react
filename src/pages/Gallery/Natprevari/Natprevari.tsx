@@ -97,7 +97,7 @@ const Natprevari = () => {
       )}
       <div style={{ padding: "10px" }}>
         <ResponsiveMasonry
-          columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 3, 1200: 4, 1800: 4 }}
+          columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 3, 1200: 4}}
         >
           <Masonry gutter="20px">
             {images.map((image, i) => {

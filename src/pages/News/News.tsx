@@ -10,6 +10,7 @@ const News = () => {
       <Banner img="/News/banner.jpg" text="Новости">
         <Navbar />
       </Banner>
+      <br />
       <NewsCards />
       <Footer />
     </>

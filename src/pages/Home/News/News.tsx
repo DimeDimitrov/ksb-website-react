@@ -34,6 +34,7 @@ const News = ({ numPosts }: Props) => {
 
   return (
     <>
+    <h1 style={{color: "white"}}>Новости</h1>
       <div className="band">
         <div className="item-1">
           {

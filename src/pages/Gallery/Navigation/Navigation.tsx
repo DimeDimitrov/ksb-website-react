@@ -13,18 +13,18 @@ const Animation = () => {
 
 const Navigation = () => {
   return (
-    <div className="button-container fadeinTop">
+    <div className="button-container">
       <nav>
         <ul>
-          <li>
+          <li className="fadeinLeft">
             Еко
             <Animation />
           </li>
-          <li>
+          <li className="fadeinTop">
             Практична настава
             <Animation />
           </li>
-          <li>
+          <li className="fadeinRight">
             Натпревари
             <Animation />
           </li>

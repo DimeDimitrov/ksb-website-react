@@ -2,7 +2,7 @@ import "./Mission.css";
 
 const Mission = () => {
   return (
-    <div className="misija-vizija section" data-category="mission">
+    <div className="misija-vizija section" data-category="mission" id="mission">
       <h2>Мисија и визија</h2>
       <p>
         <span>Мисија</span>: СОУ”Киро Спанџов-Брко” е современ воспитно

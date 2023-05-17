@@ -79,7 +79,7 @@ const postsContent: Posts = {
     Видеото го изработи Јована Илиева  ученик од 3та година електротехнича стука, профил Електроехничар за КТИА.</h1><img src="/News/19.png" alt="image.jpg" height={"800px"}/><iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100009483255162%2Fvideos%2F787864462616584%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>'
   },
   20: {
-    content: '<div><h1>Учениците од СОУ "Киро Спанџов-Брко" Кавадарци изминатите три месеци учествуваа во ЦКА-ПХВ програмата. Собраните парични средства од СМС пораките од паркираните возила на Хуманитарниот паркинг на секои 3/4 месеци на Совет на Општина ќе се одлучува каде да се донираат за хуманитарни цели, односно онаму каде што е најпотребно, додека собраните парични средства од Еколошкиот паркинг ќе одат за еколошки цели.</h1><img src="/News/20.jpg" alt="image.jpg" height={"800px"}/><iframe src="https://www.facebook.com/plugins/video.php?height=322&href=https%3A%2F%2Fwww.facebook.com%2F100009483255162%2Fvideos%2F942004597117307%2F&show_text=false&width=560&t=0" width="560" height="322" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>'
+    content: '<div><img src="" alt="image.jpg" height={"800px"}/></div>'
   },
 };
 ""

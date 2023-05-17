@@ -1,0 +1,12 @@
+.post{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.post img{
+    width: 80%;
+    height: 40%;
+}
+.post-container{
+    width: 60%;
+}

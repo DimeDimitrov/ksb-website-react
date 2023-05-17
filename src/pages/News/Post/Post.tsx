@@ -25,7 +25,15 @@ function Post() {
           .then((response) => response.text())
           .then((response) => setPost(response));
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error);
+        // @ts-ignore
+        import(`../Posts/default.md`).then((response) => {
+          fetch(response.default)
+            .then((response) => response.text())
+            .then((response) => setPost(response));
+        });
+      });
   }, []);
 
   return (

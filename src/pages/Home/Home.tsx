@@ -6,7 +6,7 @@ import Struki from "./Struki/Struki";
 import Header from "./Header/Header";
 import Liner from "./Liner/Liner";
 import Stories from "./About/About";
-import Card from "./Card/Card";
+import Card from "./Card/Success";
 
 const Home = () => {
   return (
@@ -16,12 +16,7 @@ const Home = () => {
       <Liner />
       <News numPosts={3} />
       <Stories />
-      <Card
-        imageSrc="/News/1.jpg"
-        title="Od KSB do Holywood"
-        description="Od ksb stigna do holywood, wow!"
-        story="Lorem ipsum dolor sit amet amongus Lorem ipsum dolor sit amet amongus Lorem ipsum dolor sit amet amongus "
-      />
+      <Card />
       <br />
       <br />
       <br />

@@ -58,8 +58,17 @@ const NewsCards = () => {
           </div>
         ))}
       </div>
+      <br />
       {currentPage < totalPages && (
-        <button className="see-more-button" onClick={handleSeeMore}>
+        <button
+          className="see-more-button"
+          onClick={handleSeeMore}
+          style={{
+            padding: "10px 5px",
+            border: "1px solid rgb(44, 44, 44)",
+            margin: "20px 10px 30px 10px",
+          }}
+        >
           Прикажи повеке
         </button>
       )}

@@ -3,26 +3,33 @@ import "./Kadar.css";
 const Kadar = () => {
   return (
     <>
-    <div className="profe">
-              <h3>Директор</h3>
-              <img src="/Professors/d lazov.jpg" alt="" />
+      <div className="profe" id="administrativen">
+        <h3>Директор</h3>
+        <img src="/Professors/d lazov.jpg" alt="" />
       </div>
-      <div className="special" style={{display: 'flex', justifyContent: 'center', gap: "30px", paddingTop: "10px"}}>
-      
-      <div className="profe">
-              <h3>Психолог</h3>
-              <img src="/Professors/m smilevska priholog.jpg" alt="" />
-            </div>
-      <div className="profe">
-              <h3>Педагог</h3>
-              <img src="/Professors/m smilevska priholog.jpg" alt="" />
-            </div>
-      <div className="profe">
-              <h3>Секретар</h3>
-              <img src="/Professors/m smilevska priholog.jpg" alt="" />
-            </div>
-            </div>
-      <div className="kadar section" data-category="kadar">
+      <div
+        className="special"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: "30px",
+          paddingTop: "10px",
+        }}
+      >
+        <div className="profe">
+          <h3>Психолог</h3>
+          <img src="/Professors/m smilevska priholog.jpg" alt="" />
+        </div>
+        <div className="profe">
+          <h3>Педагог</h3>
+          <img src="/Professors/m smilevska priholog.jpg" alt="" />
+        </div>
+        <div className="profe">
+          <h3>Секретар</h3>
+          <img src="/Professors/m smilevska priholog.jpg" alt="" />
+        </div>
+      </div>
+      <div className="kadar section" data-category="kadar" id="kadar">
         <h2 id="kadar-dropdown-h2">Нашиот наставен кадар</h2>
       </div>
       <div className="kadar-div">
@@ -69,7 +76,7 @@ const Kadar = () => {
               <img src="/Professors/m angelova.jpg" alt="" />
               <h3>Професор по Физика</h3>
             </div>
-            
+
             <div className="profe">
               <img src="/Professors/n kostova.jpg" alt="" />
               <h3>Професор по Македонски јазик</h3>

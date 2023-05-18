@@ -1,94 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-
-.button-container nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
 .button-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 2% 0;
+  gap: 10px;
+  margin-top: 10px;
 }
-.button-container nav ul li {
-  --c: rgb(32, 165, 218);
-  color: var(--c);
-  font-size: 16px;
-  border: 0.3em solid var(--c);
-  border-radius: 0.5em;
-  display: flex;
-  padding: 5px 30px;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: sans-serif;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  transition: 0.5s;
-  margin: 1em;
-}
-.button-container nav ul li:hover {
+
+.sort-btn {
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
-.button-container nav ul li span {
-  position: absolute;
-  width: 25%;
-  height: 100%;
-  background-color: var(--c);
-  transform: translateY(150%);
-  border-radius: 50%;
-  left: calc((var(--n) - 1) * 25%);
-  transition: 0.5s;
-  transition-delay: calc((var(--n) - 1) * 0.1s);
-  z-index: -1;
-}
 
-.button-container nav ul li:hover {
-  color: black;
-}
-
-.button-container nav ul li:hover span {
-  transform: translateY(0) scale(2);
-}
-
-.button-container nav ul li span:nth-child(1) {
-  --n: 1;
-}
-
-.button-container nav ul li span:nth-child(2) {
-  --n: 2;
-}
-
-.button-container nav ul li span:nth-child(3) {
-  --n: 3;
-}
-
-.button-container nav ul li span:nth-child(4) {
-  --n: 4;
-}
-.sort-buttons {
-  text-align: center;
-  padding: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2%;
-}
-.sort-buttons button {
-  background-color: #5e4c4c;
-  border: 1px solid black;
-  padding: 0.3% 2%;
-  border-radius: 5px;
-  transition: 0.5s;
-}
-.sort-buttons button:hover {
-  background-color: #4144e1;
-  color: white;
-  border-color: white;
+.sort-btn:hover {
+  background-color: #222222;
 }

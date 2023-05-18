@@ -1,36 +1,20 @@
 import "./SortButtons.css";
 
-const Animation = () => {
-  return (
-    <>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </>
-  );
-};
-
-
 const SortButtons = () => {
   return (
-    <div className="button-container">
-      <nav>
-        <ul>
-          <li className="fadeinLeft">
-            Историја
-            <Animation />
-          </li>
-          <li className="fadeinTop">
-            Мисија и визија
-            <Animation />
-          </li>
-          <li className="fadeinRight">
-            Наставен кадар
-            <Animation />
-          </li>
-        </ul>
-      </nav>
+    <div className="button-container fadeinTop">
+      <a href="#history">
+        <button className="sort-btn">Историја</button>
+      </a>
+      <a href="#mission">
+        <button className="sort-btn">Мисија и визија</button>
+      </a>
+      <a href="#administrativen">
+        <button className="sort-btn">Административен Кадар</button>
+      </a>
+      <a href="#kadar">
+        <button className="sort-btn">Наставен Кадар</button>
+      </a>
     </div>
   );
 };

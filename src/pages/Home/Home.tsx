@@ -5,8 +5,7 @@ import News from "./News/News";
 import Struki from "./Struki/Struki";
 import Header from "./Header/Header";
 import Liner from "./Liner/Liner";
-import Stories from "./About/About";
-import Card from "./Card/Success";
+import Stories from './Stories/Stories'
 
 const Home = () => {
   return (
@@ -15,17 +14,9 @@ const Home = () => {
       <Struki />
       <Liner />
       <News numPosts={3} />
+      <br /><br />
       <Stories />
-      <Card />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <br /><br />
       <Footer />
     </>
   );

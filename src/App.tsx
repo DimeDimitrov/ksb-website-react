@@ -4,7 +4,6 @@ import "./App.css";
 import { lazy } from "react";
 import { Suspense } from "react";
 import Loader from "./components/Loader/Loader";
-import Stories from "./pages/Stories/Stories";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
@@ -17,12 +16,13 @@ const NewPost = lazy(() => import("./pages/News/NewPost/NewPost"));
 const Secret = lazy(() => import("./components/Secret/Secret"));
 const Nacho = lazy(() => import("./components/Secret/Nacho"));
 const Creators = lazy(() => import("./pages/Creators/Creators"));
+const SixetyNine = lazy(() => import("./components/Secret/SixetyNine"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 const Elektro = lazy(() => import("./pages/Struki/Elektro/Elektro"));
 const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"));
 const Metalurski = lazy(() => import("./pages/Struki/Metalurski/Metalurski"));
 const Upisi = lazy(() => import("./pages/Upisi/Upisi"));
-const SixetyNine = lazy(() => import("./components/Secret/SixetyNine"));
+const Stories = lazy(() => import("./pages/Stories/Stories"));
 
 function App() {
   return (

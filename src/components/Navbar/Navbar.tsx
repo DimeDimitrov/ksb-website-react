@@ -8,6 +8,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="container no-gutters">
       <nav className="navbar navbar-expand-lg py-4 navbar-dark">
@@ -72,10 +76,29 @@ const Navbar = () => {
                     Галерија
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a href="/struki" className="nav-link">
+                <li
+                  className={`nav-item dropdown ${isOpen ? "show" : ""}`}
+                  onMouseEnter={toggleDropdown}
+                  onMouseLeave={toggleDropdown}
+                >
+                  <a
+                    href="/struki"
+                    className="nav-link dropdown-toggle"
+                    role="button"
+                  >
                     Струки
                   </a>
+                  <div className={`dropdown-menu ${isOpen ? "show" : ""}`}>
+                    <a className="dropdown-item" href="/struki/masinski">
+                      Машинска
+                    </a>
+                    <a className="dropdown-item" href="/struki/elektro">
+                      Електротехничка
+                    </a>
+                    <a className="dropdown-item" href="/struki/metalurski">
+                      Металуршка
+                    </a>
+                  </div>
                 </li>
                 <li className="nav-item">
                   <a href="/about" className="nav-link">

@@ -132,3 +132,36 @@ li {
   color: transparent !important;
   border-color: transparent !important;
 }
+
+/*Dropdown*/
+
+/* Navbar.css */
+.dropdown-menu {
+  display: none; /* Hide the dropdown menu by default */
+  position: absolute;
+  z-index: 1000;
+  background-color: #46464665;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block; /* Show the dropdown menu when hovering over the parent nav item */
+}
+
+.dropdown-menu {
+  top: 100%; /* Position the dropdown below the parent element */
+  left: 0;
+  margin-top: 0.25rem; /* Add a small margin for spacing */
+}
+
+.dropdown-item {
+  padding: 0.4rem 1.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #5f5e5e;
+}

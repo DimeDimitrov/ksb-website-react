@@ -4,6 +4,7 @@ import "./App.css";
 import { lazy } from "react";
 import { Suspense } from "react";
 import Loader from "./components/Loader/Loader";
+import Stories from "./pages/Stories/Stories";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
@@ -21,7 +22,7 @@ const Elektro = lazy(() => import("./pages/Struki/Elektro/Elektro"));
 const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"));
 const Metalurski = lazy(() => import("./pages/Struki/Metalurski/Metalurski"));
 const Upisi = lazy(() => import("./pages/Upisi/Upisi"));
-const SixetyNine = lazy(() => import("./components/Secret/SixetyNine"))
+const SixetyNine = lazy(() => import("./components/Secret/SixetyNine"));
 
 function App() {
   return (
@@ -74,6 +75,14 @@ function App() {
             element={
               <Suspense fallback={<Loader />}>
                 <Gallery />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/stories"
+            element={
+              <Suspense fallback={<Loader />}>
+                <Stories />
               </Suspense>
             }
           />

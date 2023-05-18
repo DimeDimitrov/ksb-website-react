@@ -135,9 +135,8 @@ li {
 
 /*Dropdown*/
 
-/* Navbar.css */
 .dropdown-menu {
-  display: none; /* Hide the dropdown menu by default */
+  display: none; 
   position: absolute;
   z-index: 1000;
   background-color: #46464665;
@@ -147,13 +146,13 @@ li {
 }
 
 .nav-item.dropdown:hover .dropdown-menu {
-  display: block; /* Show the dropdown menu when hovering over the parent nav item */
+  display: block; 
 }
 
 .dropdown-menu {
-  top: 100%; /* Position the dropdown below the parent element */
+  top: 100%;
   left: 0;
-  margin-top: 0.25rem; /* Add a small margin for spacing */
+  margin-top: 0.25rem;
 }
 
 .dropdown-item {
@@ -164,4 +163,37 @@ li {
 
 .dropdown-item:hover {
   background-color: #5f5e5e;
+}
+/*magic*/
+.menu-container {
+  position: relative;
+}
+
+.hamburger-menu,
+.close-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-icon,
+.close-icon {
+  display: block;
+  font-size: 50px;
+  line-height: 2;
+  color: #fff;
+}
+
+.active .menu-icon,
+.active .close-icon {
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .hamburger-menu {
+    display: none;
+  }
 }

@@ -8,13 +8,28 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
+  const closeMenu = () => {
+    setIsOpen(false);
   };
 
   return (
     <div className="container no-gutters">
-      <nav className="navbar navbar-expand-lg py-4 navbar-dark">
+      <div className={`menu-container ${isOpen ? "active" : ""}`}>
+        <button
+          className={`navbar-toggler md-auto hamburger-menu ${
+            isOpen ? "active" : ""
+          }`}
+          type="button"
+          onClick={isOpen ? closeMenu : toggleMenu}
+        >
+          <span className="menu-icon">&#8801;</span>
+        </button>
+      </div>
+      <nav
+        className={`navbar navbar-expand-lg py-4 navbar-dark ${
+          isOpen ? "show" : ""
+        }`}
+      >
         <div className="container">
           <div className="wrap-element">
             <div className="logo-lang fadeinLeft">
@@ -76,11 +91,7 @@ const Navbar = () => {
                     Галерија
                   </a>
                 </li>
-                <li
-                  className={`nav-item dropdown ${isOpen ? "show" : ""}`}
-                  onMouseEnter={toggleDropdown}
-                  onMouseLeave={toggleDropdown}
-                >
+                <li className={`nav-item dropdown ${isOpen ? "show" : ""}`}>
                   <a
                     href="/struki"
                     className="nav-link dropdown-toggle"
@@ -113,13 +124,6 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-          <button
-            className="navbar-toggler md-auto hamburger-menu "
-            type="button"
-            onClick={toggleMenu}
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
         </div>
       </nav>
     </div>

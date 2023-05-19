@@ -4,15 +4,12 @@
 }
 p {
   text-align: left !important;
-  padding: 2%;
-  padding-bottom: 0;
-  color: #c2c2c2;
-  font-size: 18px;
+  color: #dfdddd;
+  line-height: 1.3;
+  font-size: 1.25rem;
 }
-img {
-  width: 50%;
-  padding-left: 2%;
-}
-.image-center {
-  display: flex;
+.aboutus{
+  margin: 5rem;
+  width: min(165ch, 100% - 4rem);
+  margin-inline: auto;
 }

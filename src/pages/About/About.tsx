@@ -14,9 +14,9 @@ const About = () => {
         <Navbar />
       </Banner>
       <SortButtons />
-      <History />
-      <Mission />
       <Kadar />
+      <Mission />
+      <History />
       <Footer />
     </>
   );

@@ -3,7 +3,10 @@ import "./Mission.css";
 const Mission = () => {
   return (
     <div className="misija-vizija section" data-category="mission" id="mission">
-      <h2>Мисија и визија</h2>
+      <h2>
+        <strong>Мисија и визија</strong>
+      </h2>
+      <br />
       <p>
         <span>Мисија</span>: СОУ”Киро Спанџов-Брко” е современ воспитно
         образовен центар, кој на учениците преку иновативни искуства и практики

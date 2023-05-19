@@ -1,5 +1,15 @@
 import "./Kadar.css";
 
+const prev = () =>{
+  const container:any = document.querySelector(".profe-main");
+  container.scrollLeft -= 1200;
+}
+const next = () =>{
+  const container:any = document.querySelector(".profe-main");
+  container.scrollLeft += 1200;
+}
+
+
 const Kadar = () => {
   return (
     <>
@@ -33,7 +43,7 @@ const Kadar = () => {
         <h2 id="kadar-dropdown-h2">Нашиот наставен кадар</h2>
       </div>
       <div className="kadar-div">
-        <span className="prev">&#8249;</span>
+        <span className="prev" onClick={prev}>&#8249;</span>
         <div className="nav1">
           <div className="profe-main">
             <div className="profe">
@@ -132,7 +142,7 @@ const Kadar = () => {
             </div>
           </div>
         </div>
-        <span className="next">&#8250;</span>
+        <span className="next" onClick={next}>&#8250;</span>
       </div>
     </>
   );

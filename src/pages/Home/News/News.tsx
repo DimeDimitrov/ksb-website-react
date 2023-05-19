@@ -4,17 +4,17 @@ import posts from "../../News/posts";
 interface NewsProps {
   title: string;
   image: string;
-  daysAgo: number;
+  date: string;
   postId: number;
 }
 
-const NewsCard = ({ title, image, daysAgo, postId }: NewsProps) => {
+const NewsCard = ({ title, image, date, postId }: NewsProps) => {
   return (
     <a href={`/news/${postId}`} className="card">
       <div className="thumb" style={{ backgroundImage: `url(${image})` }}></div>
       <article>
         <h1>{title}</h1>
-        <span>Пред {daysAgo} дена</span>
+        <span>Објавено на {date}</span>
       </article>
     </a>
   );
@@ -34,7 +34,7 @@ const News = ({ numPosts }: Props) => {
 
   return (
     <>
-    <h1 style={{color: "white"}}>Новости</h1>
+      <h1 style={{ color: "white" }}>Новости</h1>
       <div className="band">
         <div className="item-1">
           {
@@ -43,7 +43,7 @@ const News = ({ numPosts }: Props) => {
               postId={latestPost}
               title={posts[latestPost].title}
               image={posts[latestPost].image}
-              daysAgo={posts[latestPost].daysAgo}
+              date={posts[latestPost].date}
             />
           }
         </div>
@@ -54,7 +54,7 @@ const News = ({ numPosts }: Props) => {
               postId={postId - 1}
               title={posts[postId - 1].title}
               image={posts[postId - 1].image}
-              daysAgo={posts[postId - 1].daysAgo}
+              date={posts[postId - 1].date}
             />
           </div>
         ))}

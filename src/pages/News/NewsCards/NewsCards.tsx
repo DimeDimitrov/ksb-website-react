@@ -5,11 +5,11 @@ import { useState } from "react";
 interface NewsProps {
   title: string;
   image: string;
-  daysAgo: number;
+  date: string;
   postId: number;
 }
 
-const NewsCard = ({ title, image, daysAgo, postId }: NewsProps) => {
+const NewsCard = ({ title, image, date, postId }: NewsProps) => {
   return (
     <a
       href={`/news/${Object.keys(posts).length - postId + 1}`}
@@ -18,7 +18,7 @@ const NewsCard = ({ title, image, daysAgo, postId }: NewsProps) => {
       <div className="thumb" style={{ backgroundImage: `url(${image})` }}></div>
       <article>
         <h1>{title}</h1>
-        <span>Пред {daysAgo} дена</span>
+        <span>Објавено на {date}</span>
       </article>
     </a>
   );
@@ -53,7 +53,7 @@ const NewsCards = () => {
               postId={index + 1}
               title={post.title}
               image={post.image}
-              daysAgo={post.daysAgo}
+              date={post.date}
             />
           </div>
         ))}

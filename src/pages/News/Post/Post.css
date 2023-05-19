@@ -1,13 +1,9 @@
-.post{
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-.post img{
-    width: 80%;
-    height: 400px;
-}
 .post-container{
-    width: 80%;
-    list-style-type: circle;
+    color: white;
+    width: min(150ch, 100% - 4rem);
+    margin-inline: auto;
+}
+.post-container img{
+    max-width: 100%;
+    display: block;
 }

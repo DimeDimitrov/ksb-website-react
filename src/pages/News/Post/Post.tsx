@@ -40,10 +40,8 @@ function Post() {
     <>
       <Navbar />
 
-      <div className="post">
-        <div className="post-container">
-          <ReactMarkdown>{post}</ReactMarkdown>
-        </div>
+      <div className="post-container">
+        <ReactMarkdown>{post}</ReactMarkdown>
       </div>
 
       <Footer />

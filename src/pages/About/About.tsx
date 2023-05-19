@@ -5,7 +5,6 @@ import "./About.css";
 import History from "./History/History";
 import Kadar from "./Kadar/Kadar";
 import Mission from "./Mission/Mission";
-import SortButtons from "./SortButtons/SortButtons";
 
 const About = () => {
   return (
@@ -13,7 +12,6 @@ const About = () => {
       <Banner img="/About/banner.jpg" text="За нас">
         <Navbar />
       </Banner>
-      <SortButtons />
       <Kadar />
       <Mission />
       <History />

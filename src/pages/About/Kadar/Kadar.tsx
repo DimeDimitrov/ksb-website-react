@@ -3,8 +3,8 @@ import "./Kadar.css";
 const Kadar = () => {
   return (
     <>
-      <div className="profe" id="administrativen">
-        <h3>Директор</h3>
+      <div className="profe" id="administrativen" style={{ margin: "2rem" }}>
+        <h3 style={{ padding: "1rem", fontSize: "2rem" }}>Директор</h3>
         <img src="/Professors/d lazov.jpg" alt="" />
       </div>
       <div

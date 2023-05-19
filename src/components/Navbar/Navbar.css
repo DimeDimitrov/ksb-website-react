@@ -5,8 +5,8 @@
 .wrap-element {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 2%;
+  justify-content: space-around;
+  padding: 0 7%;
 }
 nav img {
   width: 90px;
@@ -24,10 +24,6 @@ nav {
   font-size: 1.1rem;
   font-family: monospace !important;
   font-weight: 550 !important;
-}
-nav ul li a:hover {
-  color: rgb(99, 99, 99) !important;
-  transition: 0.5s ease-in;
 }
 nav ul li a {
   font-weight: 500 !important;
@@ -196,4 +192,13 @@ li {
   .hamburger-menu {
     display: none;
   }
+}
+@media (max-width: 992px){
+  .dropdown-menu{
+    display: none !important;
+  }
+
+  .dropdown-toggle::after {
+    content: none;
+}
 }

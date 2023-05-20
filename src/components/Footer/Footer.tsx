@@ -1,7 +1,5 @@
 import "./Footer.css";
 
-import "../../assets/animations.css";
-
 const Footer = () => {
   return (
     <footer>

@@ -39,7 +39,7 @@ const News = ({ numPosts }: Props) => {
         className="band"
         style={{ paddingTop: "4rem", paddingBottom: "4rem" }}
       >
-        <div className="item-1">
+        <div className="item-1 fadeinLeft">
           {
             <NewsCard
               key={latestPost}
@@ -51,7 +51,10 @@ const News = ({ numPosts }: Props) => {
           }
         </div>
         {latestPosts.map((postId) => (
-          <div key={postId} className={`item-${latestPost - postId + 2}`}>
+          <div
+            key={postId}
+            className={`item-${latestPost - postId + 2} fadeinRight`}
+          >
             <NewsCard
               key={postId}
               postId={postId - 1}

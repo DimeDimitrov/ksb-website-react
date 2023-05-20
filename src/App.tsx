@@ -4,6 +4,7 @@ import "./App.css";
 import { lazy } from "react";
 import { Suspense } from "react";
 import Loader from "./components/Loader/Loader";
+import "./assets/animations.css";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));

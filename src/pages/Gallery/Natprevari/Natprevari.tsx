@@ -3,15 +3,15 @@ import "./Natprevari.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
-  "/Gallery/Natprevari/1.jpg",
-  "/Gallery/Natprevari/2.jpg",
-  "/Gallery/Natprevari/3.jpg",
-  "/Gallery/Natprevari/4.jpg",
-  "/Gallery/Natprevari/5.jpg",
-  "/Gallery/Natprevari/6.jpg",
-  "/Gallery/Natprevari/7.jpg",
-  "/Gallery/Natprevari/8.jpg",
-  "/Gallery/Natprevari/9.jpg",
+  "/Gallery/Natprevari/1.webp",
+  "/Gallery/Natprevari/2.webp",
+  "/Gallery/Natprevari/3.webp",
+  "/Gallery/Natprevari/4.webp",
+  "/Gallery/Natprevari/5.webp",
+  "/Gallery/Natprevari/6.webp",
+  "/Gallery/Natprevari/7.webp",
+  "/Gallery/Natprevari/8.webp",
+  "/Gallery/Natprevari/9.webp",
 ];
 
 const Natprevari = () => {
@@ -68,14 +68,19 @@ const Natprevari = () => {
           >
             x
           </button>
-          <button onClick={() => imgAction("previous-img")}style={{
-            position: "absolute",
-            backgroundColor: "transparent",
-            borderWidth: 0,
-            fontSize: "4rem",
-            margin: "1%",
-            left: 0,
-          }}>‹</button>
+          <button
+            onClick={() => imgAction("previous-img")}
+            style={{
+              position: "absolute",
+              backgroundColor: "transparent",
+              borderWidth: 0,
+              fontSize: "4rem",
+              margin: "1%",
+              left: 0,
+            }}
+          >
+            ‹
+          </button>
           <img
             src={data.img}
             style={{
@@ -84,20 +89,24 @@ const Natprevari = () => {
               maxHeight: "90%",
             }}
           />
-          <button onClick={() => imgAction("next-img")}style={{
-            position: "absolute",
-            backgroundColor: "transparent",
-            borderWidth: 0,
-            fontSize: "4rem",
-            margin: "1%",
-            right: 0,
-            
-          }}>›</button>
+          <button
+            onClick={() => imgAction("next-img")}
+            style={{
+              position: "absolute",
+              backgroundColor: "transparent",
+              borderWidth: 0,
+              fontSize: "4rem",
+              margin: "1%",
+              right: 0,
+            }}
+          >
+            ›
+          </button>
         </div>
       )}
       <div style={{ padding: "10px" }}>
         <ResponsiveMasonry
-          columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 3, 1200: 4}}
+          columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 3, 1200: 4 }}
         >
           <Masonry gutter="20px">
             {images.map((image, i) => {

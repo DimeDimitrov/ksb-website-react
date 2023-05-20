@@ -7,7 +7,7 @@ import StoriesMain from "./StoriesMain/StoriesMain";
 const Stories = () => {
   return (
     <>
-      <Banner img="/Banners/main.jpg" text="Успешни приказни">
+      <Banner img="/Banners/main.webp" text="Успешни приказни">
         <Navbar />
       </Banner>
       <StoriesMain />

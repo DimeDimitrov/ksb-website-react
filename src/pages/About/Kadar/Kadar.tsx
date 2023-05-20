@@ -1,21 +1,20 @@
 import "./Kadar.css";
 
-const prev = () =>{
-  const container:any = document.querySelector(".profe-main");
+const prev = () => {
+  const container: any = document.querySelector(".profe-main");
   container.scrollLeft -= 1200;
-}
-const next = () =>{
-  const container:any = document.querySelector(".profe-main");
+};
+const next = () => {
+  const container: any = document.querySelector(".profe-main");
   container.scrollLeft += 1200;
-}
-
+};
 
 const Kadar = () => {
   return (
     <>
       <div className="profe" id="administrativen" style={{ margin: "2rem" }}>
         <h3 style={{ padding: "1rem", fontSize: "2rem" }}>Директор</h3>
-        <img src="/Professors/d lazov.jpg" alt="" />
+        <img src="/Professors/d lazov.webp" alt="" />
       </div>
       <div
         className="special"
@@ -28,103 +27,105 @@ const Kadar = () => {
       >
         <div className="profe">
           <h3>Психолог</h3>
-          <img src="/Professors/m smilevska priholog.jpg" alt="" />
+          <img src="/Professors/m smilevska priholog.webp" alt="" />
         </div>
         <div className="profe">
           <h3>Педагог</h3>
-          <img src="/Professors/m smilevska priholog.jpg" alt="" />
+          <img src="/Professors/m smilevska priholog.webp" alt="" />
         </div>
         <div className="profe">
           <h3>Секретар</h3>
-          <img src="/Professors/m smilevska priholog.jpg" alt="" />
+          <img src="/Professors/m smilevska priholog.webp" alt="" />
         </div>
       </div>
       <div className="kadar section" data-category="kadar" id="kadar">
         <h2 id="kadar-dropdown-h2">Нашиот наставен кадар</h2>
       </div>
       <div className="kadar-div">
-        <span className="prev" onClick={prev}>&#8249;</span>
+        <span className="prev" onClick={prev}>
+          &#8249;
+        </span>
         <div className="nav1">
           <div className="profe-main">
             <div className="profe">
-              <img src="/Professors/a ivanova.jpg" alt="" />
+              <img src="/Professors/a ivanova.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/b arsov.jpg" alt="" />
+              <img src="/Professors/b arsov.webp" alt="" />
               <h3>Дипломиран Машински Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/b gokceva.jpg" alt="" />
+              <img src="/Professors/b gokceva.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/c dojcinova.jpg" alt="" />
+              <img src="/Professors/c dojcinova.webp" alt="" />
               <h3>Професор по Македонски јазик</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/d angelkov.jpg" alt="" />
+              <img src="/Professors/d angelkov.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/i ivanov.jpg" alt="" />
+              <img src="/Professors/i ivanov.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/j gorgevik.jpg" alt="" />
+              <img src="/Professors/j gorgevik.webp" alt="" />
               <h3>Професор по Македонски јазик</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/k a velkova.jpg" alt="" />
+              <img src="/Professors/k a velkova.webp" alt="" />
               <h3>Дипломиран Професор по Англиски јазик</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/l jovanov.jpg" alt="" />
+              <img src="/Professors/l jovanov.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/m angelova.jpg" alt="" />
+              <img src="/Professors/m angelova.webp" alt="" />
               <h3>Професор по Физика</h3>
             </div>
 
             <div className="profe">
-              <img src="/Professors/n kostova.jpg" alt="" />
+              <img src="/Professors/n kostova.webp" alt="" />
               <h3>Професор по Македонски јазик</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/n padikova.jpg" alt="" />
+              <img src="/Professors/n padikova.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/o d gjorceva.jpg" alt="" />
+              <img src="/Professors/o d gjorceva.webp" alt="" />
               <h3>Професор по Математика</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/r gjorgijevska.jpg" alt="" />
+              <img src="/Professors/r gjorgijevska.webp" alt="" />
               <h3>Дипломиран Машински Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/s kuzmanova.jpg" alt="" />
+              <img src="/Professors/s kuzmanova.webp" alt="" />
               <h3>Професор по Математика</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/s puskinov.jpg" alt="" />
+              <img src="/Professors/s puskinov.webp" alt="" />
               <h3>Дипломиран Машински Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/t drenkova.jpg" alt="" />
+              <img src="/Professors/t drenkova.webp" alt="" />
               <h3>Професор по Македонски јазик</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/t trajkova.jpg" alt="" />
+              <img src="/Professors/t trajkova.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/todorka g bakeva.jpg" alt="" />
+              <img src="/Professors/todorka g bakeva.webp" alt="" />
               <h3>Професор по Англиски</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/v kostadinov.jpg" alt="" />
+              <img src="/Professors/v kostadinov.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
@@ -133,16 +134,18 @@ const Kadar = () => {
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/z kostadinovska.jpg" alt="" />
+              <img src="/Professors/z kostadinovska.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/Professors/z smilevski.jpg" alt="" />
+              <img src="/Professors/z smilevski.webp" alt="" />
               <h3>Професор по Музичко</h3>
             </div>
           </div>
         </div>
-        <span className="next" onClick={next}>&#8250;</span>
+        <span className="next" onClick={next}>
+          &#8250;
+        </span>
       </div>
     </>
   );

@@ -5,7 +5,7 @@ import Navbar from "../../../components/Navbar/Navbar";
 const Metalurski = () => {
   return (
     <>
-      <Banner img="/Struki/metalurska.jpg" text="Металуршка струка">
+      <Banner img="/Struki/metalurska.webp" text="Металуршка струка">
         <Navbar />
       </Banner>
       <div className="container">

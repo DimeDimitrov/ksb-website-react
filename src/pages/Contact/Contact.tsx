@@ -8,7 +8,7 @@ import Banner from "../../components/Banner/Banner";
 const Contact = () => {
   return (
     <>
-      <Banner img="/Contact/banner.jpg" text="Контакт">
+      <Banner img="/Contact/banner.webp" text="Контакт">
         <Navbar />
       </Banner>
       <Location />

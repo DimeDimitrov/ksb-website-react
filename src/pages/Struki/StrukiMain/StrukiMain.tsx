@@ -13,7 +13,7 @@ const Struki = () => {
           >
             <div className="row-img">
               <img
-                src="/Struki/masinska.jpg"
+                src="/Struki/masinska.webp"
                 className="img-fluid"
                 alt="Машинска струка"
               />
@@ -39,7 +39,7 @@ const Struki = () => {
           >
             <div className="row-img">
               <img
-                src="/Struki/elektro.jpg"
+                src="/Struki/elektro.webp"
                 className="img-fluid"
                 alt="Електротехничка струка"
               />
@@ -67,7 +67,7 @@ const Struki = () => {
           >
             <div className="row-img">
               <img
-                src="/Struki/metalurska.jpg"
+                src="/Struki/metalurska.webp"
                 className="img-fluid"
                 alt="Геолошко, рударски-металуршка струка"
               />

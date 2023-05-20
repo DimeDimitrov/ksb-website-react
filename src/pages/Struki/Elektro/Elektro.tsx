@@ -5,7 +5,7 @@ import "./Elektro.css";
 const Elektro = () => {
   return (
     <>
-      <Banner img="/Struki/elektro.jpg" text="Електротехничка струка" >
+      <Banner img="/Struki/elektro.webp" text="Електротехничка струка">
         <Navbar />
       </Banner>
       <div className="container">

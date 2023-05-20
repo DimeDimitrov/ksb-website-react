@@ -3,27 +3,27 @@ import "./Prakticna.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
-  "/Gallery/Prakticna/1.jpg",
-  "/Gallery/Prakticna/2.jpg",
-  "/Gallery/Prakticna/3.jpg",
-  "/Gallery/Prakticna/4.jpg",
-  "/Gallery/Prakticna/5.jpg",
-  "/Gallery/Prakticna/6.jpg",
-  "/Gallery/Prakticna/7.jpg",
-  "/Gallery/Prakticna/8.jpg",
-  "/Gallery/Prakticna/9.jpg",
-  "/Gallery/Prakticna/10.jpg",
-  "/Gallery/Prakticna/11.jpg",
-  "/Gallery/Prakticna/12.jpg",
-  "/Gallery/Prakticna/13.jpg",
-  "/Gallery/Prakticna/14.jpg",
-  "/Gallery/Prakticna/15.jpg",
-  "/Gallery/Prakticna/16.jpg",
-  "/Gallery/Prakticna/17.jpg",
-  "/Gallery/Prakticna/18.jpg",
-  "/Gallery/Prakticna/19.jpg",
-  "/Gallery/Prakticna/20.jpg",
-  "/Gallery/Prakticna/21.jpg",
+  "/Gallery/Prakticna/1.webp",
+  "/Gallery/Prakticna/2.webp",
+  "/Gallery/Prakticna/3.webp",
+  "/Gallery/Prakticna/4.webp",
+  "/Gallery/Prakticna/5.webp",
+  "/Gallery/Prakticna/6.webp",
+  "/Gallery/Prakticna/7.webp",
+  "/Gallery/Prakticna/8.webp",
+  "/Gallery/Prakticna/9.webp",
+  "/Gallery/Prakticna/10.webp",
+  "/Gallery/Prakticna/11.webp",
+  "/Gallery/Prakticna/12.webp",
+  "/Gallery/Prakticna/13.webp",
+  "/Gallery/Prakticna/14.webp",
+  "/Gallery/Prakticna/15.webp",
+  "/Gallery/Prakticna/16.webp",
+  "/Gallery/Prakticna/17.webp",
+  "/Gallery/Prakticna/18.webp",
+  "/Gallery/Prakticna/19.webp",
+  "/Gallery/Prakticna/20.webp",
+  "/Gallery/Prakticna/21.webp",
 ];
 
 const Prakticna = () => {
@@ -80,14 +80,19 @@ const Prakticna = () => {
           >
             x
           </button>
-          <button onClick={() => imgAction("previous-img")}style={{
-            position: "absolute",
-            backgroundColor: "transparent",
-            borderWidth: 0,
-            fontSize: "4rem",
-            margin: "1%",
-            left: 0,
-          }}>‹</button>
+          <button
+            onClick={() => imgAction("previous-img")}
+            style={{
+              position: "absolute",
+              backgroundColor: "transparent",
+              borderWidth: 0,
+              fontSize: "4rem",
+              margin: "1%",
+              left: 0,
+            }}
+          >
+            ‹
+          </button>
           <img
             src={data.img}
             style={{
@@ -96,15 +101,19 @@ const Prakticna = () => {
               maxHeight: "90%",
             }}
           />
-          <button onClick={() => imgAction("next-img")}style={{
-            position: "absolute",
-            backgroundColor: "transparent",
-            borderWidth: 0,
-            fontSize: "4rem",
-            margin: "1%",
-            right: 0,
-            
-          }}>›</button>
+          <button
+            onClick={() => imgAction("next-img")}
+            style={{
+              position: "absolute",
+              backgroundColor: "transparent",
+              borderWidth: 0,
+              fontSize: "4rem",
+              margin: "1%",
+              right: 0,
+            }}
+          >
+            ›
+          </button>
         </div>
       )}
       <div style={{ padding: "10px" }}>

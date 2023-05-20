@@ -34,14 +34,14 @@ const Navbar = () => {
           <div className="wrap-element">
             <div className="logo-lang fadeinLeft">
               <a href="/home" className="navbar-brand">
-                <img src="/logo.png" alt="Logo" />
+                <img src="/logo.webp" alt="Logo" />
               </a>
               <li className="flags">
                 <div className="flag-container">
                   <div className="langSelect">
                     <img
                       className="flag"
-                      src="/Flags/macedonianFlag.png"
+                      src="/Flags/macedonianFlag.webp"
                       alt="Makedonski"
                       draggable="false"
                     />
@@ -49,7 +49,7 @@ const Navbar = () => {
                   <div className="langSelect">
                     <img
                       className="flag"
-                      src="/Flags/englishFlag.png"
+                      src="/Flags/englishFlag.webp"
                       alt="English"
                       draggable="false"
                     />
@@ -57,7 +57,7 @@ const Navbar = () => {
                   <div className="langSelect">
                     <img
                       className="flag"
-                      src="/Flags/albanianFlag.png"
+                      src="/Flags/albanianFlag.webp"
                       alt="Albanski"
                       draggable="false"
                     />

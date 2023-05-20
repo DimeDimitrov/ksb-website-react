@@ -9,7 +9,7 @@ import Mission from "./Mission/Mission";
 const About = () => {
   return (
     <>
-      <Banner img="/About/banner.jpg" text="За нас">
+      <Banner img="/About/banner.webp" text="За нас">
         <Navbar />
       </Banner>
       <Kadar />

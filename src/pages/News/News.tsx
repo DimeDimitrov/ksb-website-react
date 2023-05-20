@@ -7,7 +7,7 @@ import Banner from "../../components/Banner/Banner";
 const News = () => {
   return (
     <>
-      <Banner img="/News/banner.jpg" text="Новости">
+      <Banner img="/News/banner.webp" text="Новости">
         <Navbar />
       </Banner>
       <br />

@@ -8,7 +8,7 @@ import Banner from "../../components/Banner/Banner";
 const Upisi = () => {
   return (
     <>
-      <Banner img="/Banners/struki.jpg" text="Уписи">
+      <Banner img="/Banners/struki.webp" text="Уписи">
         <Navbar />
       </Banner>
       <UpisiMain />

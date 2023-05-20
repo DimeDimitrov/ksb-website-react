@@ -7,14 +7,18 @@ const Footer = () => {
     <footer>
       <div className="Sponsors">
         <div className="main-div">
-          <a className="nickel" href="https://www.euronickel.com/" target="_blank">
-            <img src="/Sponsors/feni.png" />
+          <a
+            className="nickel"
+            href="https://www.euronickel.com/"
+            target="_blank"
+          >
+            <img src="/Sponsors/feni.webp" />
           </a>
           <a className="igm" href="https://www.igmtrade.com/" target="_blank">
-            <img src="/Sponsors/Igmtrade.jpg" />
+            <img src="/Sponsors/Igmtrade.webp" />
           </a>
           <a href="https://www.draexlmaier.com/en/" target="_blank">
-            <img src="/Sponsors/draexelmaier.png" />
+            <img src="/Sponsors/draexelmaier.webp" />
           </a>
         </div>
       </div>
@@ -36,14 +40,20 @@ const Footer = () => {
           </div>
           <div className="content-info">
             <span>
-              <a target="_blank" href="https://www.facebook.com/people/%D0%9A%D0%B8%D1%80%D0%BE-%D0%A1%D0%BF%D0%B0%D0%BD%D1%9F%D0%BE%D0%B2-%D0%91%D1%80%D0%BA%D0%BE/pfbid02Q8mXiZUXkmtzV6Dfe7nf6vSTkd7TCaH5HXEfEjckdrTiWGp6ZZaYmdZ6JfS39R4Rl/">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/people/%D0%9A%D0%B8%D1%80%D0%BE-%D0%A1%D0%BF%D0%B0%D0%BD%D1%9F%D0%BE%D0%B2-%D0%91%D1%80%D0%BA%D0%BE/pfbid02Q8mXiZUXkmtzV6Dfe7nf6vSTkd7TCaH5HXEfEjckdrTiWGp6ZZaYmdZ6JfS39R4Rl/"
+              >
                 Facebook Страна
               </a>
             </span>
           </div>
           <div className="content-info">
             <span>
-              <a href="https://www.youtube.com/watch?v=Z75FPljkRkA" target="_blank">
+              <a
+                href="https://www.youtube.com/watch?v=Z75FPljkRkA"
+                target="_blank"
+              >
                 YouTube Канал
               </a>
             </span>

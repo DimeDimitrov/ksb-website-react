@@ -3,14 +3,14 @@ import "./Eko.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
-  "/Gallery/Eko/1.jpg",
-  "/Gallery/Eko/2.jpg",
-  "/Gallery/Eko/3.jpg",
-  "/Gallery/Eko/4.jpg",
-  "/Gallery/Eko/5.jpg",
-  "/Gallery/Eko/6.jpg",
-  "/Gallery/Eko/7.jpg",
-  "/Gallery/Eko/8.jpg",
+  "/Gallery/Eko/1.webp",
+  "/Gallery/Eko/2.webp",
+  "/Gallery/Eko/3.webp",
+  "/Gallery/Eko/4.webp",
+  "/Gallery/Eko/5.webp",
+  "/Gallery/Eko/6.webp",
+  "/Gallery/Eko/7.webp",
+  "/Gallery/Eko/8.webp",
 ];
 
 const Eko = () => {
@@ -67,14 +67,19 @@ const Eko = () => {
           >
             x
           </button>
-          <button onClick={() => imgAction("previous-img")}style={{
-            position: "absolute",
-            backgroundColor: "transparent",
-            borderWidth: 0,
-            fontSize: "4rem",
-            margin: "1%",
-            left: 0,
-          }}>‹</button>
+          <button
+            onClick={() => imgAction("previous-img")}
+            style={{
+              position: "absolute",
+              backgroundColor: "transparent",
+              borderWidth: 0,
+              fontSize: "4rem",
+              margin: "1%",
+              left: 0,
+            }}
+          >
+            ‹
+          </button>
           <img
             src={data.img}
             style={{
@@ -83,15 +88,19 @@ const Eko = () => {
               maxHeight: "90%",
             }}
           />
-          <button onClick={() => imgAction("next-img")}style={{
-            position: "absolute",
-            backgroundColor: "transparent",
-            borderWidth: 0,
-            fontSize: "4rem",
-            margin: "1%",
-            right: 0,
-            
-          }}>›</button>
+          <button
+            onClick={() => imgAction("next-img")}
+            style={{
+              position: "absolute",
+              backgroundColor: "transparent",
+              borderWidth: 0,
+              fontSize: "4rem",
+              margin: "1%",
+              right: 0,
+            }}
+          >
+            ›
+          </button>
         </div>
       )}
       <div style={{ padding: "10px" }}>

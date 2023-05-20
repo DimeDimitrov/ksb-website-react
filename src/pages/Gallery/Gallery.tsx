@@ -13,7 +13,7 @@ const BackToTop = lazy(() => import("../../components/BackToTop/BackToTop"));
 const Gallery = () => {
   return (
     <>
-      <Banner img="/Gallery/banner.jpg" text="Галерија">
+      <Banner img="/Gallery/banner.webp" text="Галерија">
         <Navbar />
       </Banner>
       <Navigation />

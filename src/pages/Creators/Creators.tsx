@@ -24,8 +24,6 @@ const Creators = () => {
       </a>
       <br />
 
-      <h2>There are some easter eggs on the site, good luck finding them c:</h2>
-
       <h1>All rights reserved by original creators</h1>
     </>
   );

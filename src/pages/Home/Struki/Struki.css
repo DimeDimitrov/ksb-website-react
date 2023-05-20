@@ -115,4 +115,13 @@
     width: 100%;
     background-color: white !important;
   }
-  
+ @media screen and (max-width: 768px) {
+  .row{
+    margin-inline: auto;
+  }
+  .col-md-3 {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

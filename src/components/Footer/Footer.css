@@ -185,3 +185,19 @@ footer .footer p {
     transition: 0.5s;
   }
 }
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .about-head,
+  .info,
+  .contact {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .con{
+    margin-inline: auto;
+    font-size: larger;
+    width: 95% !important;
+  }
+}

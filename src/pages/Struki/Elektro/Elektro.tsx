@@ -8,7 +8,7 @@ const Elektro = () => {
       <Banner img="/Struki/elektro.webp" text="Електротехничка струка">
         <Navbar />
       </Banner>
-      <div className="container">
+      <div className="container fadeinTop">
         <div className="row">
           <hr />
           <h4>Електротехничар за компјутерска техника и автоматика</h4>

@@ -3,7 +3,7 @@ import "./History.css";
 const History = () => {
   return (
     <div
-      className="aboutus section fadeinTop"
+      className="aboutus section fadeinLeft"
       data-category="About-us"
       id="history"
     >

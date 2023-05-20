@@ -8,7 +8,7 @@ const Metalurski = () => {
       <Banner img="/Struki/metalurska.webp" text="Металуршка струка">
         <Navbar />
       </Banner>
-      <div className="container">
+      <div className="container fadeinTop">
         <div className="row">
           <hr />
           <h4>Геолошко, рударски-металуршка струка</h4>

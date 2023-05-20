@@ -2,7 +2,11 @@ import "./Mission.css";
 
 const Mission = () => {
   return (
-    <div className="misija-vizija section" data-category="mission" id="mission">
+    <div
+      className="misija-vizija section fadeinLeft"
+      data-category="mission"
+      id="mission"
+    >
       <h2>
         <strong>Мисија и визија</strong>
       </h2>

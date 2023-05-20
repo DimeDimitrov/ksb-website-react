@@ -45,7 +45,7 @@ const NewsCards = () => {
 
   return (
     <>
-      <div className="band">
+      <div className="band fadeinTop">
         {displayedPosts.map((post, index) => (
           <div key={index} className={"item"}>
             <NewsCard

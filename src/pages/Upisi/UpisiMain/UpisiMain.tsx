@@ -4,7 +4,7 @@ const UpisiMain = () => {
   return (
     <div className="upisi-container">
       <div className="wrapper">
-        <div className="wrap">
+        <div className="wrap fadeinTop">
           <h1 className="entry-title">Упис 2023/2024</h1>
           <h5>
             За запишување ученици во прва година во учебната 2023/2024 година Во
@@ -13,7 +13,7 @@ const UpisiMain = () => {
             образовни профили:
           </h5>
         </div>
-        <div className="wrap">
+        <div className="wrap fadeinLeft">
           <hr />
           <h2>
             <strong>Машинска струка 93 ученици поделени во 3 паралелки</strong>
@@ -40,7 +40,7 @@ const UpisiMain = () => {
           </ul>
         </div>
 
-        <div className="wrap">
+        <div className="wrap fadeinLeft">
           <hr />
           <h2>
             <strong>Елетротехничка струка 118 ученици, 4 паралелки</strong>
@@ -66,7 +66,7 @@ const UpisiMain = () => {
             </li>
           </ul>
         </div>
-        <div className="wrap">
+        <div className="wrap fadeinLeft">
           <hr />
           <h2>
             <strong>
@@ -82,7 +82,7 @@ const UpisiMain = () => {
             </li>
           </ul>
         </div>
-        <div className="wrap">
+        <div className="wrap fadeinLeft">
           <hr />
           <h2>
             <strong>Услови за запишување на учениците </strong>

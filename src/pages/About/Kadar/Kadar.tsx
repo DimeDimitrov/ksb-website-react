@@ -12,12 +12,16 @@ const next = () => {
 const Kadar = () => {
   return (
     <>
-      <div className="profe" id="administrativen" style={{ margin: "2rem" }}>
+      <div
+        className="profe fadeinTop"
+        id="administrativen"
+        style={{ margin: "2rem" }}
+      >
         <h3 style={{ padding: "1rem", fontSize: "2rem" }}>Директор</h3>
         <img src="/Professors/d lazov.webp" alt="" />
       </div>
       <div
-        className="special"
+        className="special fadeinTop"
         style={{
           display: "flex",
           justifyContent: "center",
@@ -45,7 +49,7 @@ const Kadar = () => {
         <span className="prev" onClick={prev}>
           &#8249;
         </span>
-        <div className="nav1">
+        <div className="nav1 fadeinTop">
           <div className="profe-main">
             <div className="profe">
               <img src="/Professors/a ivanova.webp" alt="" />

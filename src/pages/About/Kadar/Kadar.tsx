@@ -30,16 +30,16 @@ const Kadar = () => {
         }}
       >
         <div className="profe">
-          <h3>Психолог</h3>
-          <img src="/Professors/m smilevska priholog.webp" alt="" />
+          <h3>Секретар</h3>
+          <img src="/Professors/missing.webp" alt="sekretar.webp" />
         </div>
         <div className="profe">
           <h3>Педагог</h3>
           <img src="/Professors/missing.webp" alt="pedagog.webp" />
         </div>
         <div className="profe">
-          <h3>Секретар</h3>
-          <img src="/Professors/missing.webp" alt="sekretar.webp" />
+          <h3>Психолог</h3>
+          <img src="/Professors/m smilevska priholog.webp" alt="" />
         </div>
       </div>
       <div className="kadar section" data-category="kadar" id="kadar">

@@ -44,7 +44,10 @@ const Stories = () => {
           content={story.content}
         />
       ))}
-      <a href="/stories">Повеќе приказни</a>
+
+      <a href="/stories" role="button" className="btn btn-primary btn-lg">
+        Повеќе приказни
+      </a>
     </>
   );
 };

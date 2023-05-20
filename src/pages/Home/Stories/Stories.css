@@ -55,6 +55,7 @@
 .card1:hover {
   height: 52vh;
   padding: 0 !important;
+  background: rgb(39, 61, 110);
 }
 .card1:hover .dropdown-content1 {
   display: flex;

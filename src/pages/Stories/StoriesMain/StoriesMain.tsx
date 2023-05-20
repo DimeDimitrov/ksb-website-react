@@ -13,9 +13,13 @@ const StoryCard = ({ title, image, description, content }: Props) => {
     <div className="card1-main">
       <div className="card1">
         <div className="card-body1">
-          <div className="CImg" style={{ background: `url(${image})` }}></div>
-          <h1>{title}</h1>
-          <h2>{description}</h2>
+          <div className="CImg">
+            <img src={image} alt="" />
+          </div>
+          <div className="card-titles">
+            <h1>{title}</h1>
+            <h2>{description}</h2>
+          </div>
           <div className="dropdown-content1">
             <h3>{content}</h3>
           </div>

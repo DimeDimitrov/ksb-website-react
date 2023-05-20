@@ -1,61 +1,69 @@
 .card1-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .card1 {
-    text-align: start;
-    color: white;
-    width: 80%;
-    border: 1px solid #ccc;
-    padding: 0.2rem;
-    height: 30vh;
-    /* background: url(/News/banner.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: inset 2000px 40px rgba(8, 8, 39, 0.8); */
-  }
-  .card-body1 {
-    width: 100%;
-    display: flex;
-    height: 29vh;
-  }
-  .CImg {
-    width: 30%;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: inset 2000px 40px rgba(8, 8, 39, 0.8);
-  }
-  .dropdown-content1 {
-    width: 100%;
-    opacity: 0;
-    position: relative;
-    color: white;
-    z-index: 1;
-    height: 20vh;
-    margin-top: 10vh;
-    text-align: center;
-  }
-  .card1:hover {
-    transition: all ease-in-out 0.5s;
-    height: 50vh;
-  }
-  .card1:hover .dropdown-content1 {
-    transition: all 0.5s ease-in-out;
-    opacity: 1;
-  }
-  .card1:hover .card-body1 {
-    transition: 0.5s ease-in-out;
-    height: 49vh;
-  }
-  
-  .card1:hover h1 {
-    display: none;
-    transition: 0.5s ease-in-out;
-  }
-  
-  .card1:hover h2 {
-    display: none;
-    transition: 0.5s ease-in-out;
-  }
-  
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card1 {
+  text-align: start;
+  color: white;
+  width: 80%;
+  border: 1px solid #ccc;
+  padding: 0.2rem;
+  height: 30vh;
+  transition: all 0.5s ease-in-out;
+}
+.card-body1 {
+  width: 100%;
+  display: flex;
+  height: 29vh;
+  transition: all 0.5s ease-in-out;
+}
+.CImg {
+  background-repeat: no-repeat;
+  align-items: start;
+  background-size: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.CImg img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.card-titles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+.dropdown-content1 {
+  width: 100%;
+  display: none;
+  position: relative;
+  color: white;
+  z-index: 1;
+  height: 20vh;
+  margin-top: 10vh;
+  text-align: start;
+  transition: all 0.5s ease-in-out;
+}
+.card1:hover {
+  height: 52vh;
+  padding: 0 !important;
+}
+.card1:hover .dropdown-content1 {
+  display: flex;
+  margin: 1.2rem;
+}
+.card1:hover .card-body1 {
+  height: 51vh;
+  overflow: hidden !important;
+}
+.card1:hover .card-titles {
+  display: none;
+}

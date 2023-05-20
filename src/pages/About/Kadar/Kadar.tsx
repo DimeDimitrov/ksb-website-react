@@ -56,6 +56,10 @@ const Kadar = () => {
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
+              <img src="/Professors/z kostadinovska.webp" alt="" />
+              <h3>Дипломиран Електро Инженер</h3>
+            </div>
+            <div className="profe">
               <img src="/Professors/b arsov.webp" alt="" />
               <h3>Дипломиран Машински Инженер</h3>
             </div>
@@ -137,10 +141,7 @@ const Kadar = () => {
               <h4 className="grizev">Александар грижев</h4>
               <h3>Дипломиран Електро Инженер</h3>
             </div>
-            <div className="profe">
-              <img src="/Professors/z kostadinovska.webp" alt="" />
-              <h3>Дипломиран Електро Инженер</h3>
-            </div>
+
             <div className="profe">
               <img src="/Professors/z smilevski.webp" alt="" />
               <h3>Професор по Музичко</h3>

@@ -12,8 +12,6 @@ const Struki = lazy(() => import("./pages/Struki/Struki"));
 const About = lazy(() => import("./pages/About/About"));
 const Gallery = lazy(() => import("./pages/Gallery/Gallery"));
 const Post = lazy(() => import("./pages/News/Post/Post"));
-const NewPost = lazy(() => import("./pages/News/NewPost/NewPost"));
-const Creators = lazy(() => import("./pages/Creators/Creators"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 const Elektro = lazy(() => import("./pages/Struki/Elektro/Elektro"));
 const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"));
@@ -147,14 +145,6 @@ function App() {
               element={
                 <Suspense fallback={<Loader />}>
                   <Post />
-                </Suspense>
-              }
-            />
-            <Route
-              path="new"
-              element={
-                <Suspense fallback={<Loader />}>
-                  <NewPost />
                 </Suspense>
               }
             />

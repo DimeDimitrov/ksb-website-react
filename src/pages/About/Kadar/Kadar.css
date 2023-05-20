@@ -78,3 +78,18 @@
   font-size: 5rem;
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  .special {
+    gap: 4px !important;
+    padding: 0;
+  }
+  .profe h3{
+    font-size: 1.35rem;
+  }
+}
+@media (max-width: 360px) {
+  .special {
+    gap: 0px !important;
+  }
+}

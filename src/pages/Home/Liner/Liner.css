@@ -1,3 +1,9 @@
 body{
     background-color: rgb(44, 44, 44);
 }
+.liner-items {
+    color: white;
+    background: rgba(49, 49, 109, 0.74);
+    padding: 2.4rem 2.4rem;
+  }
+  

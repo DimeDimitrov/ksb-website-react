@@ -5,12 +5,8 @@ const Liner = () => {
     <section className="py-5 draggable">
       <div className="liner">
         <div
-          className="row justify-content-center text-center"
-          style={{
-            color: "white",
-            background: "rgba(49, 49, 109, 0.74)",
-            padding: "2.4rem 2.4rem",
-          }}
+          className="row justify-content-center text-center liner-items"
+          style={{ color: "white" }}
         >
           <div className="col-md-3">
             <h1 className="text-gradient text-primary">323</h1>

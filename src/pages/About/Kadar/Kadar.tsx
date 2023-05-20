@@ -30,16 +30,16 @@ const Kadar = () => {
         }}
       >
         <div className="profe">
-          <h3>Психолог</h3>
-          <img src="/Professors/m smilevska priholog.webp" alt="" />
+          <h3>Секретар</h3>
+          <img src="/Professors/missing.webp" alt="sekretar.webp" />
         </div>
         <div className="profe">
           <h3>Педагог</h3>
           <img src="/Professors/missing.webp" alt="pedagog.webp" />
         </div>
         <div className="profe">
-          <h3>Секретар</h3>
-          <img src="/Professors/missing.webp" alt="sekretar.webp" />
+          <h3>Психолог</h3>
+          <img src="/Professors/m smilevska priholog.webp" alt="" />
         </div>
       </div>
       <div className="kadar section" data-category="kadar" id="kadar">
@@ -53,6 +53,10 @@ const Kadar = () => {
           <div className="profe-main">
             <div className="profe">
               <img src="/Professors/a ivanova.webp" alt="" />
+              <h3>Дипломиран Електро Инженер</h3>
+            </div>
+            <div className="profe">
+              <img src="/Professors/z kostadinovska.webp" alt="" />
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
@@ -137,10 +141,7 @@ const Kadar = () => {
               <h4 className="grizev">Александар грижев</h4>
               <h3>Дипломиран Електро Инженер</h3>
             </div>
-            <div className="profe">
-              <img src="/Professors/z kostadinovska.webp" alt="" />
-              <h3>Дипломиран Електро Инженер</h3>
-            </div>
+
             <div className="profe">
               <img src="/Professors/z smilevski.webp" alt="" />
               <h3>Професор по Музичко</h3>

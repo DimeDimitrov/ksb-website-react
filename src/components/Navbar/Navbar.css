@@ -200,5 +200,10 @@ li {
 
   .dropdown-toggle::after {
     content: none;
-}
+  }
+  .logo-lang{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
 }

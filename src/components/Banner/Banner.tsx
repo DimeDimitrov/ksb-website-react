@@ -16,10 +16,9 @@ const Banner = ({ img, text, children }: Props) => {
         url(${img})`,
       }}
     >
+      <h1 className="fadeinTop inner-text">{text}</h1>
+
       {children}
-      <div className="homepage">
-        <h1 className="fadeinTop">{text}</h1>
-      </div>
       <div className="overlay"></div>
     </section>
   );

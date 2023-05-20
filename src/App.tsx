@@ -13,10 +13,7 @@ const About = lazy(() => import("./pages/About/About"));
 const Gallery = lazy(() => import("./pages/Gallery/Gallery"));
 const Post = lazy(() => import("./pages/News/Post/Post"));
 const NewPost = lazy(() => import("./pages/News/NewPost/NewPost"));
-const Secret = lazy(() => import("./components/Secret/Secret"));
-const Nacho = lazy(() => import("./components/Secret/Nacho"));
 const Creators = lazy(() => import("./pages/Creators/Creators"));
-const SixetyNine = lazy(() => import("./components/Secret/SixetyNine"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 const Elektro = lazy(() => import("./pages/Struki/Elektro/Elektro"));
 const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"));
@@ -162,10 +159,6 @@ function App() {
               }
             />
           </Route>
-          <Route path="/news/420" element={<Secret />} />
-          <Route path="/nacho" element={<Nacho />} />
-          <Route path="/creators" element={<Creators />} />
-          <Route path="/home/69" element={<SixetyNine />} />
         </Routes>
       </BrowserRouter>
     </>

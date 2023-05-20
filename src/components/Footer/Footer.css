@@ -200,4 +200,19 @@ footer .footer p {
     font-size: larger;
     width: 95% !important;
   }
+  .main-div a {
+    margin: 0 5px;
+  }
+  .main-div img {
+    width: 100%;
+    scale: 180%;
+  }
+  .main-div{
+    width: 95%;
+  }
+}
+@media screen and (max-width: 400px){
+  .main-div img {
+    scale: 210%;
+  }
 }

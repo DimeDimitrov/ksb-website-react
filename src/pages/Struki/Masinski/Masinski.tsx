@@ -78,7 +78,7 @@ const Elektro = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container fadeinTop">
         <div className="row">
           <hr />
           <h4>Техничар за компјутерско управување</h4>
@@ -151,7 +151,7 @@ const Elektro = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container fadeinTop">
         <hr />
         <h4>Автомеханичар</h4>
         <hr />

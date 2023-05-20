@@ -8,8 +8,8 @@ const Liner = () => {
           className="row justify-content-center text-center"
           style={{
             color: "white",
-            background: "rgba(49, 49, 109, 0.507)",
-            padding: "15px 0",
+            background: "rgba(49, 49, 109, 0.74)",
+            padding: "2.4rem 2.4rem",
           }}
         >
           <div className="col-md-3">

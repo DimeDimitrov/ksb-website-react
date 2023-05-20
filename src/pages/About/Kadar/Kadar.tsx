@@ -129,7 +129,7 @@ const Kadar = () => {
               <h3>Дипломиран Електро Инженер</h3>
             </div>
             <div className="profe">
-              <img src="/missing.webp" alt="" />
+              <img src="/Professors/a grizev.webp" alt="a grizev.webp" />
               <h4 className="grizev">Александар грижев</h4>
               <h3>Дипломиран Електро Инженер</h3>
             </div>

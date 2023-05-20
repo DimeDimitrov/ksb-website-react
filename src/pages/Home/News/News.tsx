@@ -34,8 +34,11 @@ const News = ({ numPosts }: Props) => {
 
   return (
     <>
-      <h1 style={{ color: "white" }}>Новости</h1>
-      <div className="band">
+      <h1 style={{ color: "white", padding: "2rem" }}>Новости</h1>
+      <div
+        className="band"
+        style={{ paddingTop: "4rem", paddingBottom: "4rem" }}
+      >
         <div className="item-1">
           {
             <NewsCard

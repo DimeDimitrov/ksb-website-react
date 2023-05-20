@@ -18,6 +18,7 @@ const Masinski = lazy(() => import("./pages/Struki/Masinski/Masinski"));
 const Metalurski = lazy(() => import("./pages/Struki/Metalurski/Metalurski"));
 const Upisi = lazy(() => import("./pages/Upisi/Upisi"));
 const Stories = lazy(() => import("./pages/Stories/Stories"));
+const Creators = lazy(() => import("./pages/Creators/Creators"));
 
 function App() {
   return (
@@ -149,6 +150,7 @@ function App() {
               }
             />
           </Route>
+          <Route path="/creators" element={<Creators />} />
         </Routes>
       </BrowserRouter>
     </>

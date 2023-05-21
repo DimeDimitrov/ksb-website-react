@@ -19,7 +19,6 @@ const Banner = ({ img, text, children }: Props) => {
       <h1 className="fadeinTop inner-text">{text}</h1>
 
       {children}
-      <div className="overlay"></div>
     </section>
   );
 };

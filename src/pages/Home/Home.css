@@ -1,6 +1,17 @@
-* {
-}
+
 :root {
   overflow-x: hidden;
   padding: 0 !important;
+}
+@media (max-width: 992px) {
+ 
+  .logo-lang {
+    z-index: 999;
+    position: absolute;
+    left: 1rem;
+    top: 2rem !important;
+  }
+  .hamburger-menu{
+    top: 4rem !important;
+  }
 }

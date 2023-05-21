@@ -84,8 +84,13 @@
     gap: 4px !important;
     padding: 0;
   }
+
   .profe h3{
     font-size: 1.35rem;
+  }
+  .profe img{
+    scale: 150%;
+    margin-top: 20px;
   }
 }
 @media (max-width: 360px) {

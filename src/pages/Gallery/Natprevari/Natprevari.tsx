@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Natprevari.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
@@ -20,6 +20,7 @@ const Natprevari = () => {
   const viewImage = (img: string, i: number) => {
     setData({ img, i });
   };
+
   const imgAction = (action: string) => {
     let i = data.i;
     if (action === "next-img") {
@@ -32,6 +33,22 @@ const Natprevari = () => {
       setData({ img: "", i: 0 });
     }
   };
+
+  useEffect(() => {
+    const handleKeyDown = (event: any) => {
+      if (event.key === "ArrowRight") {
+        imgAction("next-img");
+      }
+      if (event.key === "ArrowLeft") {
+        imgAction("previous-img");
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [data]);
 
   return (
     <section id="natprevari">
@@ -88,6 +105,7 @@ const Natprevari = () => {
               maxWidth: "90%",
               maxHeight: "90%",
             }}
+            alt=""
           />
           <button
             onClick={() => imgAction("next-img")}
@@ -109,22 +127,20 @@ const Natprevari = () => {
           columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 3, 1200: 4 }}
         >
           <Masonry gutter="20px">
-            {images.map((image, i) => {
-              return (
-                <img
-                  key={i}
-                  src={image}
-                  style={{
-                    width: "100%",
-                    scale: "100%",
-                    display: "block",
-                    cursor: "pointer",
-                  }}
-                  alt=""
-                  onClick={() => viewImage(image, i)}
-                />
-              );
-            })}
+            {images.map((image, i) => (
+              <img
+                key={i}
+                src={image}
+                style={{
+                  width: "100%",
+                  scale: "100%",
+                  display: "block",
+                  cursor: "pointer",
+                }}
+                alt=""
+                onClick={() => viewImage(image, i)}
+              />
+            ))}
           </Masonry>
         </ResponsiveMasonry>
       </div>

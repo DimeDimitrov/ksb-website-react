@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Prakticna.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
@@ -44,6 +44,22 @@ const Prakticna = () => {
       setData({ img: "", i: 0 });
     }
   };
+
+  useEffect(() => {
+    const handleKeyDown = (event: any) => {
+      if (event.key === "ArrowRight") {
+        imgAction("next-img");
+      }
+      if (event.key === "ArrowLeft") {
+        imgAction("previous-img");
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [data]);
 
   return (
     <section id="prakticna">

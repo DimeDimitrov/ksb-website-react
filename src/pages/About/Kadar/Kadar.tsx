@@ -1,4 +1,5 @@
 import "./Kadar.css";
+import { useEffect } from "react";
 
 const prev = () => {
   const container: any = document.querySelector(".profe-main");
@@ -10,6 +11,20 @@ const next = () => {
 };
 
 const Kadar = () => {
+  useEffect(() => {
+    const container: any = document.querySelector(".profe-main");
+    container.addEventListener("wheel", (scroll:any) =>{
+      if (scroll.deltaY > 0) {
+        container.scrollLeft += 500;
+        scroll.preventDefault();
+      } else {
+        container.scrollLeft -= 500;
+        scroll.preventDefault();
+      }
+    });
+    return () => container.removeEventListener("wheel", ()=>{
+    });
+  });
   return (
     <>
       <div

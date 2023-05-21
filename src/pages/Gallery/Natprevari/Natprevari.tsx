@@ -34,16 +34,19 @@ const Natprevari = () => {
     }
   };
 
-  useEffect(() => {
-    const handleKeyDown = (event: any) => {
-      if (event.key === "ArrowRight") {
-        imgAction("next-img");
-      }
-      if (event.key === "ArrowLeft") {
-        imgAction("previous-img");
-      }
-    };
+  const handleKeyDown = (event: any) => {
+    if (data.img && event.key === "ArrowRight") {
+      imgAction("next-img");
+    }
+    if (data.img && event.key === "ArrowLeft") {
+      imgAction("previous-img");
+    }
+    if (data.img && event.key === "Escape") {
+      imgAction("");
+    }
+  };
 
+  useEffect(() => {
     window.addEventListener("keydown", handleKeyDown);
     return () => {
       window.removeEventListener("keydown", handleKeyDown);

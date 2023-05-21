@@ -14,23 +14,12 @@ const Navbar = () => {
 
   return (
     <div className="container no-gutters">
-      <div className={`menu-container ${isOpen ? "active" : ""}`}>
-        <button
-          className={`navbar-toggler md-auto hamburger-menu ${
-            isOpen ? "active" : ""
-          }`}
-          type="button"
-          onClick={isOpen ? closeMenu : toggleMenu}
-        >
-          <span className="menu-icon">&#8801;</span>
-        </button>
-      </div>
       <nav
         className={`navbar navbar-expand-lg py-4 navbar-dark ${
           isOpen ? "show" : ""
         }`}
       >
-        <div className="container">
+        <div className="containerNav">
           <div className="wrap-element">
             <div className="logo-lang fadeinLeft">
               <a href="/home" className="navbar-brand">
@@ -65,6 +54,15 @@ const Navbar = () => {
                 </div>
               </li>
             </div>
+            <button
+              className={`navbar-toggler md-auto hamburger-menu ${
+                isOpen ? "active" : ""
+              }`}
+              type="button"
+              onClick={isOpen ? closeMenu : toggleMenu}
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
             <div
               className={`navmenu collapse navbar-collapse fadeinRight ${
                 isOpen ? "show" : ""

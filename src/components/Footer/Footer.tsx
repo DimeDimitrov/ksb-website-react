@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright">
-        <span>Copyright © 2023 Team ViperXE</span>
+        <span>Copyright © 2023 Team KSB</span>
       </div>
     </footer>
   );

@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container no-gutters">
+    <div className={`container no-gutters ${isOpen ? "overlay" : ""}`}>
       <nav
         className={`navbar navbar-expand-lg py-4 navbar-dark ${
           isOpen ? "show" : ""

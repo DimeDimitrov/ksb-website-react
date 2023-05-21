@@ -19,7 +19,7 @@ const Navbar = () => {
           isOpen ? "show" : ""
         }`}
       >
-        <div className="containerNav">
+        <div className="container">
           <div className="wrap-element">
             <div className="logo-lang fadeinLeft">
               <a href="/home" className="navbar-brand">

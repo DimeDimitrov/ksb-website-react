@@ -35,7 +35,7 @@ const Stories = () => {
   return (
     <>
       <h1 style={{ color: "white" }}>Успешни приказни</h1>
-      {latestStories.map((story, index) => (
+      {latestStories.reverse().map((story, index) => (
         <StoryCard
           key={index}
           title={story.title}

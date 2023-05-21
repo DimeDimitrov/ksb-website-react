@@ -34,7 +34,7 @@ const StoriesMain = () => {
 
   return (
     <>
-      {Stories.map((story, index) => (
+      {Stories.reverse().map((story, index) => (
         <StoryCard
           key={index}
           title={story.title}

@@ -2,6 +2,8 @@
 
 Welcome to the Kiro Spandzov Brko School Website repository! This private website is designed exclusively for the Kiro Spandzov Brko School located in Kavadarci, Macedonia. It is built using React with TypeScript and powered by Vite, providing a modern and efficient development experience.
 
+![banner](https://github.com/DimeDimitrov/ksb-website-react/assets/129460051/bdeba76c-0b96-4965-b871-763cab36cc98)
+
 ## About the Project
 
 The Kiro Spandzov Brko School Website project was a collaborative effort by our dedicated team. We learned a lot about teamwork and web development throughout the process, overcoming challenges together and creating an impactful website for our school community.
@@ -14,6 +16,10 @@ The Kiro Spandzov Brko School Website project was a collaborative effort by our 
 - Detailed explanations of all subjects studied
 - Online resources and materials for students
 - Photo gallery showcasing school events and activities
+
+## Website
+
+Visit the Kiro Spandzov Brko School Website at [https://kirospandzovbrko.netlify.app/](https://kirospandzovbrko.netlify.app/) to explore the various sections and learn more about our school.
 
 ## Team Members
 

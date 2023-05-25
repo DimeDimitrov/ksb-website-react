@@ -23,19 +23,19 @@ Visit the Kiro Spandzov Brko School Website at [https://kirospandzovbrko.netlify
 
 ## Team Members
 
-1. [Dimitar Dimitrov](github.com/dimedimitrov) - Main React Developer
+1. [Dimitar Dimitrov](https://github.com/dimedimitrov) - Main React Developer
    - Responsible for implementing the core functionality of the website using React.
    - Collaborated closely with the team to ensure smooth integration of features.
 
-2. [Jovan Mitrev](github.com/frozenxe) - Lead Designer
+2. [Jovan Mitrev](https://github.com/frozenxe) - Lead Designer
    - Led the design efforts, creating visually appealing and intuitive user interfaces.
    - Worked closely with the team to incorporate design elements seamlessly.
 
-3. [Stefan Panov](github.com/stefchee) - Responsive Designer
+3. [Stefan Panov](https://github.com/stefchee) - Responsive Designer
    - Focused on creating a responsive design that adapts well to different screen sizes.
    - Ensured the website provides an optimal user experience on various devices.
 
-4. [Petar Stefanov](github.com/suddke) - Valuable Contributor
+4. [Petar Stefanov](https://github.com/suddke) - Valuable Contributor
    - Mike's contribution to the project was instrumental in shaping its success.
    - Although his involvement may have been limited, his valuable ideas and insights greatly influenced our decision-making process, fostering a collaborative environment within the team.
 

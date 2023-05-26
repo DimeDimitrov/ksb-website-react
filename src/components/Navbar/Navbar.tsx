@@ -80,6 +80,11 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
+                  <a href="/matura" className="nav-link">
+                    Матура
+                  </a>
+                </li>
+                <li className="nav-item">
                   <a href="/news" className="nav-link">
                     Новости
                   </a>

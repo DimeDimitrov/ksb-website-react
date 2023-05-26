@@ -5,6 +5,7 @@ import { lazy } from "react";
 import { Suspense } from "react";
 import Loader from "./components/Loader/Loader";
 import "./assets/animations.css";
+import Matura from "./pages/Matura/Matura";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
@@ -152,6 +153,7 @@ function App() {
             />
           </Route>
           <Route path="/creators" element={<Creators />} />
+          <Route path="/matura" element={<Matura />} />
         </Routes>
       </BrowserRouter>
     </>

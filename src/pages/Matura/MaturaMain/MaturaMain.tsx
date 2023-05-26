@@ -3,8 +3,10 @@ import "./MaturaMain.css";
 const MaturaMain = () => {
   return (
     <div className="matura-wrapper">
-      <h1>Овде може да ги најдете материјалите за матурската</h1>
-      <p>
+      <h1 className="fadeinTop">
+        Овде може да ги најдете материјалите за матурската
+      </h1>
+      <ul className="fadeinLeft">
         <a href="/Matura/матура-прашања-Електрични-мрежи.doc">
           Матура прашања Електрични мрежи
         </a>
@@ -43,7 +45,7 @@ const MaturaMain = () => {
         >
           Матурски прашања за Мотори и моторни возила-2023
         </a>
-      </p>
+      </ul>
     </div>
   );
 };

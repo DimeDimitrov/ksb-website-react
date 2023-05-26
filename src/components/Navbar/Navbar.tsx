@@ -25,34 +25,6 @@ const Navbar = () => {
               <a href="/home" className="navbar-brand">
                 <img src="/logo.webp" alt="Logo" />
               </a>
-              <li className="flags">
-                <div className="flag-container">
-                  <div className="langSelect">
-                    <img
-                      className="flag"
-                      src="/Flags/macedonianFlag.webp"
-                      alt="Makedonski"
-                      draggable="false"
-                    />
-                  </div>
-                  <div className="langSelect">
-                    <img
-                      className="flag"
-                      src="/Flags/englishFlag.webp"
-                      alt="English"
-                      draggable="false"
-                    />
-                  </div>
-                  <div className="langSelect">
-                    <img
-                      className="flag"
-                      src="/Flags/albanianFlag.webp"
-                      alt="Albanski"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-              </li>
             </div>
             <button
               className={`navbar-toggler md-auto hamburger-menu ${

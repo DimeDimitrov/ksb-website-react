@@ -99,6 +99,11 @@ const posts: Posts = {
     image: "/News/16.jpg",
     date: "29 Мај 2023",
   },
+  17: {
+    title: "Тест пост ",
+    image: "/News/16.jpg",
+    date: "31 Мај 2023",
+  },
 };
 
 export default posts;

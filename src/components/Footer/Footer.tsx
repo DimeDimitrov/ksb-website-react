@@ -5,11 +5,7 @@ const Footer = () => {
     <footer>
       <div className="Sponsors">
         <div className="main-div">
-          <a
-            className="nickel"
-            href="https://www.euronickel.com/"
-            target="_blank"
-          >
+          <a className="nickel" href="https://www.euronickel.com/" target="_blank">
             <img src="/Sponsors/feni.webp" />
           </a>
           <a className="igm" href="https://www.igmtrade.com/" target="_blank">
@@ -48,17 +44,14 @@ const Footer = () => {
           </div>
           <div className="content-info">
             <span>
-              <a
-                href="https://www.youtube.com/watch?v=Z75FPljkRkA"
-                target="_blank"
-              >
+              <a href="https://www.youtube.com/watch?v=Z75FPljkRkA" target="_blank">
                 YouTube Канал
               </a>
             </span>
           </div>
           <div className="content-info">
             <span>
-              <a href="#">Други Линкови</a>
+              <a href="https://github.com/DimeDimitrov/ksb-website-react">Github</a>
             </span>
           </div>
         </div>

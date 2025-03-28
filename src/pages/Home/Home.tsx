@@ -15,10 +15,16 @@ const Home = () => {
       <Liner />
       <div className="zastita">
         <h2>Пожар и спасување</h2>
-        <a href="/elaboratzapokaznavezba.pdf" target="_blank">Елаборат за изведба на показна вежба за заштита од пожар</a>
+        <a href="/elaboratzapokaznavezba.pdf" target="_blank">
+          Елаборат за изведба на показна вежба за заштита од пожар
+        </a>
         <br />
-        <a href="/planzazastitaispasuvanje.pdf" target="_blank">План за заштита и спасување од природни непогоди и други несреќи</a>
-         <a href="/Награда мислиње и известување за показна вежба.pdf" target="_blank">Награда мислиње и известување за показна вежба</a>
+        <a href="/planzazastitaispasuvanje.pdf" target="_blank">
+          План за заштита и спасување од природни непогоди и други несреќи
+        </a>
+         <a href="/Награда мислиње и известување за показна вежба.pdf" target="_blank">
+           Награда мислиње и известување за показна вежба
+         </a>
         
       </div>
       <News numPosts={3} />

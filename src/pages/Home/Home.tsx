@@ -22,6 +22,10 @@ const Home = () => {
         <a href="/planzazastitaispasuvanje.pdf" target="_blank">
           План за заштита и спасување од природни непогоди и други несреќи
         </a>
+         <a href="Награда мислиње и известување за показна вежба.pdf" target="_blank">
+          Награда мислиње и известување за показна вежба
+        </a>
+        
       </div>
       <News numPosts={3} />
       <br />

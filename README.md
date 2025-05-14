@@ -1,4 +1,4 @@
-![Thomas_C _Lea_III_-_That_Two-Thousand_Yard_Stare_-_Original](https://github.com/user-attachments/assets/5f6c5690-ae2e-415d-acf6-8e565187cd12)![Thomas_C _Lea_III_-_That_Two-Thousand_Yard_Stare_-_Original](https://github.com/user-attachments/assets/1e4a1b2d-ac70-4596-840a-dd1a83ac5f45)# Kiro Spandzov Brko School Website
+# Kiro Spandzov Brko School Website
 
 Welcome to the Kiro Spandzov Brko School Website repository! This website is designed exclusively for the Kiro Spandzov Brko School located in Kavadarci, Macedonia. It is built using React with TypeScript and powered by Vite, providing a modern and efficient development experience.
 
